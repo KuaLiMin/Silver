@@ -6,8 +6,9 @@
     --clrStrongFocus: #FFCE4C; /*Dark Tangerine*/
     --clrBgAccentMute: #6E6C80; /*Light Silver*/
     --clrBgAccentLoud: #D9D9D9; /*Old Lavender*/
-    --mainFont: 'Heebo', sans-serif;
+    --mainFont: 'Varela Round', sans-serif;
     --headFont: 'Patua One', cursive;
+    --fancyFont: 'Playball', cursive;
 }
 
 /* harder to download images*/
@@ -21,9 +22,15 @@ body{
     color: var(--clrBgOpp);
 }
 
+nav, .dropdown-menu{
+    background-color: transparent;
+    outline: none !important;
+    border:none !important;
+}
+
 body, span{
     color: var(--clrBgOpp);
-	font-family: 'Roboto Mono', monospace;
+	font-family: var(--mainFont);
 	padding: 0;
 	margin: 0;
 }
@@ -39,6 +46,15 @@ button, .btn, button:focus, .btn:focus, textarea:focus, audio:focus, .coolKey:fo
 a, a:focus, a:hover{
     text-decoration: none;
     color: var(--clrBgOpp);
+}
+
+.navbar-brand{
+    font-family: var(--fancyFont);
+    font-size: 50px;
+    color: silver !important;
+    -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: gold;
+  line-height: 45%;
 }
 
 
