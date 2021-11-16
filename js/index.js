@@ -1,4 +1,4 @@
 $(".google-btn").click(function() {
-    window.location.replace("../html/home.html");
+    window.location.replace("html/home.html");
 });
 
