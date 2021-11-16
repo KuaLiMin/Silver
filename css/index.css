@@ -1,0 +1,90 @@
+.slideshow{
+  background-image: url("../media/images/loginslideshow/6.jpg");
+  background-size: cover;
+}
+.slide-wrapper{
+  -webkit-animation: slide 60s ease infinite;
+}
+  
+.slide{
+  float: left;
+  min-height: 100%;
+  min-width: 150%;
+}
+
+.google-icon-svg{
+  height: 40px;
+}
+
+.slide{
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+  
+.slide:nth-child(1){
+  background-image: url("../media/images/loginslideshow/3.jpg");
+}
+  
+.slide:nth-child(2){
+  background-image: url("../media/images/loginslideshow/5.jpg");
+}
+  
+.slide:nth-child(3){
+  background-image: url("../media/images/loginslideshow/1.jpg");
+}
+  
+.slide:nth-child(4){
+  background-image: url("../media/images/loginslideshow/4.jpg");
+}
+.slide:nth-child(4){
+  background-image: url("../media/images/loginslideshow/2.jpg");
+}
+
+  
+  @-webkit-keyframes slide{
+  0%{margin-left: -90px;}
+  20%{margin-left: -150px;}
+  30%{margin-left: -900px;}
+  50%{margin-left: -1200px;}
+  60%{margin-left: -1456px;}
+  70%{margin-left: -2000px;}
+  90%{margin-left: -3000px;}
+}
+
+.loginlogo{
+  font-size: 160px;
+  -webkit-text-stroke-width: 1.3px;
+}
+.sub{
+  font-size: smaller
+}
+
+  @media only screen and (max-width: 910px){
+  .loginlogo{
+  font-size: 80px;
+  -webkit-text-stroke-width: 0.5px;
+  }
+  .sub{
+  font-size: 10px;
+  }
+  .contgoogle{
+  font-size: x-small;
+  }
+  .google-icon-svg{
+  height: 30px;
+  }
+}
+
+@media only screen and (max-width: 360px){
+  .loginlogo{
+  font-size: 60px;
+  -webkit-text-stroke-width: 0.5px;
+  }
+  .sub{
+  font-size: 7px;
+  }
+}
+
+  
