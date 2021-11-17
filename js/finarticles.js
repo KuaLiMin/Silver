@@ -1,12 +1,12 @@
 $('a[href$="finarticles.html"]').attr('style', 'color: var(--clrStrongFocus) !important');
 
-busInt()
-function busInt() {
+/*Finance news RSS*/
+finNews()
+function finNews() {
         var news = []
 
          const proxyUrl = "https://cors-anywhere.herokuapp.com/"
          const url = `${proxyUrl}https://www.channelnewsasia.com/rssfeeds/8395954`;
-         const request = new Request(url);
          
          /*fetch news*/
          fetch(url)
@@ -15,16 +15,20 @@ function busInt() {
          .then(function(data){  
          var channel = data.querySelectorAll("channel")[0]
          //$("#update").text(channel.querySelectorAll("lastBuildDate")[0].innerHTML) /*change updated date*/
-            console.log(channel)
             
          /*update articles*/
-         $(".theNews").remove(); /*clear div*/
+         $(".theNews").empty(); /*clear div*/
          var arti = channel.querySelectorAll("item")
-         for (p = 0; p < 10; p++){
+        for (p = 0; p < 20; p++){
             /*get relevant variables*/
             var tit = arti[p].querySelectorAll("title")[0].innerHTML
             var tim = new Date().getHours() - Number(arti[p].querySelectorAll("pubDate")[0].innerHTML.slice(17,19))
-            var pic = arti[p].querySelectorAll("thumbnail")[0]
+
+            try{
+            var pic = arti[p].querySelectorAll("thumbnail")[0]["attributes"][0].value
+            }catch(err){
+                continue;
+            }
             var lin = arti[p].querySelectorAll("link")[0].innerHTML
 
 
@@ -68,14 +72,44 @@ function busInt() {
             news.push([tit, lin])
             /*create articles*/
 
-            console.log(tim, suff, tit, pic)
-            $( '<button class="col-12 d-flex flex-nowrap my-5 my-sm-3 mr-3 px-4 px-sm-5 border-0 h-100 rounded text-left bg-transparent art"><span class="col-8 col-sm-9 p-0 headline"><span class="col-12 d-block m-0 sou">'
-            + tim + suff + '<b> | </b></span><span class="col-12 p-0 pb-2 tit">'
-            + tit + '</span></span><span class="col-4 d-flex col-sm-3 p-0 h-100 w-100 ml-1 justify-content-center"><img src="'
-            + pic + '" alt="photo"></span></button>' )
+            console.log(tim, suff, tit, pic, lin)
+
+            $(".theNews").append(`
+            <button  onclick="window.open('`+lin+`', '_blank')" class="card cardicle p-0 border-0 mb-3" style="background-color: var(--clrBgAccentSoft);">
+            <div class="row no-gutters">
+              <div class="col-md-4" >
+                <img src="`+pic+`" style="object-fit:cover" class="h-100 card-img">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">`+tit+`</p>
+                  <p class="card-text"><small class="text-muted">`+tim+suff+`</p>
+                </div>
+              </div>
+            </div>
+          </button>
+            `)
                
-            }
+        }
+
+        var pubDate = channel.querySelectorAll("pubDate")[0].innerHTML
+        var pubDate1 = pubDate.split(",")
+        var newDate = new Date(pubDate1[1])
+        var newDate1 = newDate.toLocaleString();
+
+
+        $(".theNews").append("<div class='col-12 my-5 text-center'><p style='font-size:smaller'>Source: CNA, last updated "+newDate1+".</p></div>")
          
 
       })
+}
+
+tutorialArticles()
+function tutorialArticles(){
+    articles = {
+        "article one": "abc abc abc",
+        "article two": "abc abc abc"
+    }
+
+    
 }
