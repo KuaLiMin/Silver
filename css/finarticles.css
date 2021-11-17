@@ -1,0 +1,15 @@
+.card-text, .card-title{
+    color: var(--clrBgOpp) !important;
+
+}
+.text-muted{
+    color: var(--clrBgAccentMute) !important;
+}
+
+.cardicle{
+    border: 2px solid var(--clrBgAccentSoft) !important;
+}
+
+.cardicle:hover{
+    border: 2px solid var(--clrBgAccent) !important;
+}

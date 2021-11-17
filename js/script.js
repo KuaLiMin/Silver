@@ -31,7 +31,7 @@ function lsCheck() {
 function addTop() {
     /*check for main*/
     if($('main').length != 1){
-        location.href='../html/index.html'
+        location.href='../index.html'
         return
     }
 
@@ -93,20 +93,22 @@ function addTop() {
             </div>
         </nav>
     `).insertBefore("main");
+
+    $('a[href$="'+ $('main').attr('id') +'.html"]').attr('style', 'color: var(--clrStrongFocus) !important');
+
     }
 
 }
 
 /*change font*/
 function changefont(){
-    if(localStorage.theme == '1'){
+    if(localStorage.font == '1'){
         $("body").get(0).style.setProperty('--mainFont', "'Patua One', cursive")
     }
     else{
         $("body").get(0).style.setProperty('--mainFont', "'Varela Round', sans-serif")
     }
 }
-
 
 
 /*change theme*/
