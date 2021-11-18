@@ -321,7 +321,7 @@ function tutorialArticles(){
         <ul>
             <li>Take the selling price and subtract the initial purchase price. The result is the gain or loss.</li>
             <li>Take the gain or loss from the investment and divide it by the original amount or purchase price of the investment.</li>
-            <li>Finally, multiply the result by 100 to arrive at the percentage change in the investment.</li>
+            <li>Finally, multiply the result by 100 to arrive at the percentage change in the investment.</li></ul>
      <p>If the percentage turns out to be negative because the market value is lower than the original purchase price—also called the cost basis—there's a loss on the investment. 
     If the percentage is positive because the market value or selling price is greater than the original purchase price, there's a gain on the investment.</p> 
     <h2>Formula for Calculating Percentage Gain or Loss </h2>
