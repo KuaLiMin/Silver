@@ -541,8 +541,7 @@ function tutorialArticles(){
 
 
 
-        "art6": ["title", "story"],
-        "art7": ["hello there", `<p>helloooo</p>`]
+        
     }
 
 
