@@ -506,28 +506,36 @@ function tutorialArticles(){
       <!-- Another paragraph-->
       <p>Finance is a broad term that describes activities associated with banking, leverage or debt, credit, capital markets, money, and investments. Basically, finance represents money management and the process of acquiring needed funds. Finance also encompasses the oversight, creation, and study of money, banking, credit, investments, assets, and liabilities that make up financial systems.
   Many of the basic concepts in finance originate from microeconomic and macroeconomic theories. One of the most fundamental theories is the time value of money, which essentially states that a dollar today is worth more than a dollar in the future. 
-  Types of Finance
-  Because individuals, businesses, and government entities all need funding to operate, the finance field includes three main subcategories: personal finance, corporate finance, and public (government) finance.
-  Personal finance
+  </p>
+  <h3>Types of Finance</h3>
+  <p>Because individuals, businesses, and government entities all need funding to operate, the finance field includes three main subcategories: </p>
+  <ul>
+  <li>personal finance<li> corporate finance <li>public (government) finance
+  </ul>.
+  <p>Personal finance
   Financial planning involves analyzing the current financial position of individuals to formulate strategies for future needs within financial constraints. Personal finance is specific to an individual’s situation and activity. Therefore, financial strategies depend largely on the person’s earnings, living requirements, goals, and desires.
   Individuals must save for retirement, for example, which requires saving or investing enough money during their working lives to fund their long-term plans. This type of financial management decision falls under personal finance.
   Personal finance includes the purchasing of financial products such as credit cards, insurance, mortgages, and various types of investments. Banking is also considered a component of personal finance because individuals use checking and savings accounts as well as online or mobile payment services such as PayPal and Venmo.
-  Finance
-  Corporate Finance
-  Corporate finance refers to the financial activities related to running a corporation, usually with a division or department set up to oversee those financial activities.
+  </p>
+  <h3>Finance</h3>
+  <h4>Corporate Finance<h4>
+  <p>Corporate finance refers to the financial activities related to running a corporation, usually with a division or department set up to oversee those financial activities.
   One example of corporate finance: A large company may have to decide whether to raise additional funds through a bond issue or stock offering. Investment banks may advise the firm on such considerations and help it market the securities.
   Startups may receive capital from angel investors or venture capitalists in exchange for a percentage of ownership. If a company thrives and decides to go public, it will issue shares on a stock exchange through an initial public offering (IPO) to raise cash.
   In other cases, a company might be trying to budget its capital and decide which projects to finance and which to put on hold in order to grow the company. All these types of decisions fall under corporate finance.
-  Public finance
-  Public finance includes taxing, spending, budgeting, and debt-issuance policies that affect how a government pays for the services it provides to the public.
+  </p>
+  <h3>Public finance</h3>
+  <p>Public finance includes taxing, spending, budgeting, and debt-issuance policies that affect how a government pays for the services it provides to the public.
   The federal government helps prevent market failure by overseeing the allocation of resources, the distribution of income, and economic stability. Regular funding is secured mostly through taxation. Borrowing from banks, insurance companies, and other nations also helps finance government spending.
-  Financial Services
-  Financial services are the processes by which consumers and businesses acquire financial goods. One straightforward example is the financial service offered by a payment system provider when it accepts and transfers funds between payers and recipients. This includes accounts settled via checks, credit and debit cards, and electronic funds transfers.
+  </p>
+  <h3>Financial Services</h3>
+  <p>Financial services are the processes by which consumers and businesses acquire financial goods. One straightforward example is the financial service offered by a payment system provider when it accepts and transfers funds between payers and recipients. This includes accounts settled via checks, credit and debit cards, and electronic funds transfers.
   Important: Financial services are not the same as financial goods. Financial goods are products, such as mortgages, stocks, bonds, and insurance policies; financial services are tasks—for example, the investment advice and management a financial advisor provides for a client.
   The financial services sector is one of the most important segments of the economy. It drives a nation’s economy, providing the free flow of capital and liquidity in the marketplace. It is made up of a variety of financial firms, including banks, investment houses, finance companies, insurance companies, lenders, accounting services, and real estate brokers.
   When this sector and a country’s economy are strong, consumer confidence and purchasing power rise. When the financial services sector fails, it can drag down the economy and lead to a recession.
-  What Are Financial Activities?
-  Financial activities are the initiatives and transactions that businesses, governments, and individuals undertake as they seek to further their economic goals. They are activities that involve the inflow or outflow of money. Examples include buying and selling products (or assets), issuing stocks, initiating loans, and maintaining accounts.
+  </p>
+  <h3>What Are Financial Activities?</h3>
+  <p>Financial activities are the initiatives and transactions that businesses, governments, and individuals undertake as they seek to further their economic goals. They are activities that involve the inflow or outflow of money. Examples include buying and selling products (or assets), issuing stocks, initiating loans, and maintaining accounts.
   When a company sells shares and makes debt repayments, these are both financial activities. Similarly, individuals and governments are involved in financial activities, such as taking out loans and levying taxes, which further specific monetary objectives.
   </p>`],
 
