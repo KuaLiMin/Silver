@@ -114,7 +114,7 @@ function changefont(){
 /*change theme*/
 function changecolour(){
     if(localStorage.theme == '1'){ /* dark mode*/
-        ivebeencheckingmyList=['#000', '#FFF' , '#FFF', "#F99C15", '#FFCE4C', '#161616', '#F99C15', '#1b4263']
+        ivebeencheckingmyList=['#000', '#FFF' , '#FFF', "#F99C15", '#FFCE4C', '#161616', '#434952', '#1b4263']
         $("<style>")
             .prop("type", "text/css")
             .html("\
@@ -138,7 +138,7 @@ function changecolour(){
             setColours(ivebeencheckingmyList)
     }
     else if(localStorage.theme == '3'){ /* Red-Green mode*/
-        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#0083c2", '#ffff01', '#ffe24d', '#AEAEAE', '#525252']
+        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#0083c2", '#cfe2f3', '#2986cc', '#AEAEAE', '#525252']
         $("<style>")
             .prop("type", "text/css")
             .html("\
@@ -150,19 +150,7 @@ function changecolour(){
             setColours(ivebeencheckingmyList)
     }
     else if(localStorage.theme == '4'){ /* Blue-Yellow mode*/
-        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#970196", '#ba6c96', '#d1a1a4', '#AEAEAE', '#525252']
-        $("<style>")
-            .prop("type", "text/css")
-            .html("\
-            .aSVG {\
-                filter: invert(100%);\
-            }\
-            ")
-            .appendTo("head")
-            setColours(ivebeencheckingmyList)
-    }
-    else if(localStorage.theme == '4'){ /* Blue-Yellow mode*/
-        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#970196", '#ba6c96', '#d1a1a4', '#AEAEAE', '#525252']
+        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#970196", '#ba6c96', '#f4cccc', '#eeeeee', '#525252']
         $("<style>")
             .prop("type", "text/css")
             .html("\
