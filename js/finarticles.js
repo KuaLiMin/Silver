@@ -16,7 +16,6 @@ function finNews() {
          var channel = data.querySelectorAll("channel")[0]
          //$("#update").text(channel.querySelectorAll("lastBuildDate")[0].innerHTML) /*change updated date*/
 
-         console.log(channel)
 
          if (channel != null)
          {
@@ -111,7 +110,7 @@ function tutorialArticles(){
     articles = {
         "art1": ["This is a title", `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently <a href="example.com" target="_blank"><u>with desktop</u></a> publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> <img class='col-12' src="https://www.himgs.com/imagenes/hello/social/hello-fb-logo.png"/> <p>another paragraph</p>`],
         "art2": ["title", "story"],
-        "art3": ["hello there", `<p>helloooo</p>`]
+        "art3": ["hello there bank china", `<p>helloooo</p>`]
     }
 
 
@@ -139,7 +138,8 @@ function searchArt(){
    if($(".searchButton").text() == "X"){
    $(".textInput")[0]["value"] = ""
    $(".searchButton").text("Search")
-   $('.finLesson').css("display", "block")
+   $('.finLesson, .newsRSS').css("display", "block")
+   
    } else{
    $(".searchButton").text("X")
    
@@ -149,27 +149,29 @@ function searchArt(){
       if(!(obj.innerHTML.toUpperCase().includes(keyword.toUpperCase()) || keyword.toUpperCase().includes(obj.innerHTML.toUpperCase()))){
          $(obj).css("display", "none")
       }
+      
   });
-  console.log("aa")
+
   $('.newsRSS').each(function(i, obj) {
-   console.log("aa")
-   console.log($(obj).find("card-text").innerHTML)
-   // if(!(obj.innerHTML.toUpperCase().includes(keyword.toUpperCase()) || keyword.toUpperCase().includes(obj.innerHTML.toUpperCase()))){
-   //    $(obj).css("display", "none")
-   // }
+   headline = $(obj).find(".card-text")[0]["innerHTML"].toUpperCase()
+   if(!(headline.includes(keyword.toUpperCase()) || keyword.toUpperCase().includes(headline))){
+      $(obj).css("display", "none")
+   }
 });
 
-   }
-   //    $(".textInput").css("background-color", "var(--clrBgAccentSoft)")
-   //    $(".textInput").focus(function(e) {
-   //       e.preventDefault();
-   //   });
-   //   $(".inputCon").append('<div id="blocker" style="position:absolute; left:0; right:0; top:0; bottom:0;"></div>')
-   }
+   } 
+}
 }
 
 
-// $('body').on('click', '#blocker', function() {
-//    var x = document.getElementById("snackbar");
-// })
+
+
+
+function scrollDown(){
+   $('html, body').animate({
+      scrollTop: $("#newsAnchor").offset().top
+  }, 500);
+}
+
+
 
