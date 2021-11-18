@@ -14,7 +14,16 @@
     border: 2px solid var(--clrBgAccent) !important;
 }
 
+.modal-header{
+    width: 100%;
+    font-family: var(--headFont);
+    font-size: larger;
+    text-align: center !important;
+}
 
+a{
+    color: var(--clrBgAccentLoud)
+}
 
 .cardicle:hover
 {
@@ -27,4 +36,22 @@
     -moz-transform: scale(1.1);
     transition: all 200ms ease-in;
     transform: scale(1.1);
+}
+
+.textInput{
+    background-color: transparent;
+}
+
+.textInput:hover, .textInput:focus{
+    background-color: var(--clrBgAccentSoft);
+    color: var(--clrBgOpp);
+}
+.searchButton:hover{
+    background-color: var(--clrStrongFocus) !important;
+    color: var(--clrBgAccentLoud) !important;
+}
+
+
+.modal-content{
+    background-color: var(--clrBgAccentSoft);
 }

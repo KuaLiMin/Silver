@@ -16,6 +16,7 @@ function finNews() {
          var channel = data.querySelectorAll("channel")[0]
          //$("#update").text(channel.querySelectorAll("lastBuildDate")[0].innerHTML) /*change updated date*/
 
+         console.log(channel)
 
          if (channel != null)
          {
@@ -76,7 +77,7 @@ function finNews() {
                   /*create articles*/
 
                   $(".theNews").append(`
-                  <button  onclick="window.open('`+lin+`', '_blank')" class="card cardicle p-0 border-0 mb-3" style="background-color: var(--clrBgAccentSoft);">
+                  <button  onclick="window.open('`+lin+`', '_blank')" class="card newsRSS cardicle p-0 border-0 mb-3" style="background-color: var(--clrBgAccentSoft);">
                   <div class="row no-gutters">
                   <div class="col-md-4" >
                      <img src="`+pic+`" style="object-fit:cover" class="h-100 card-img">
@@ -84,7 +85,7 @@ function finNews() {
                   <div class="col-md-8">
                      <div class="card-body">
                         <p class="card-text">`+tit+`</p>
-                        <p class="card-text"><small class="text-muted">`+tim+suff+`</p>
+                        <p class="card-text"><small class="text-muted">`+tim+suff+`</small></p>
                      </div>
                   </div>
                   </div>
@@ -108,15 +109,16 @@ function finNews() {
 tutorialArticles()
 function tutorialArticles(){
     articles = {
-        "art1": ["This is a title", `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently <a><u>with desktop</u></a> publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> <img class='col-12' src="https://www.himgs.com/imagenes/hello/social/hello-fb-logo.png"/> <p>another paragraph</p>`],
-        "art2": ["title", "story"]
+        "art1": ["This is a title", `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently <a href="example.com" target="_blank"><u>with desktop</u></a> publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> <img class='col-12' src="https://www.himgs.com/imagenes/hello/social/hello-fb-logo.png"/> <p>another paragraph</p>`],
+        "art2": ["title", "story"],
+        "art3": ["hello there", `<p>helloooo</p>`]
     }
 
 
     $(".lessonsList").empty()
 
     for (const [key, value] of Object.entries(articles)) {
-      $(".lessonsList").append(`<button id="`+ key +`" class="cardicle finLesson list-group-item bg-transparent border-0">`+ value[0]+`</button>`)
+      $(".lessonsList").append(`<button id="`+ key +`" class="cardicle finLesson list-group-item border-0" style="background-color: var(--clrBg); color: var(--bgOpp)">`+ value[0]+`</button>`)
     }
 }
 
@@ -129,3 +131,45 @@ $('body').on('click', '.finLesson', function() {
    $(".modal-body").append(articles[jQuery(this).attr("id")][1])
    $('#newsModal').modal('show')
 });
+
+
+function searchArt(){
+   keyword = $(".textInput")[0]["value"]
+   if((keyword.length) >0){
+   if($(".searchButton").text() == "X"){
+   $(".textInput")[0]["value"] = ""
+   $(".searchButton").text("Search")
+   $('.finLesson').css("display", "block")
+   } else{
+   $(".searchButton").text("X")
+   
+   
+   $('.finLesson').each(function(i, obj) {
+      obj.innerHTML
+      if(!(obj.innerHTML.toUpperCase().includes(keyword.toUpperCase()) || keyword.toUpperCase().includes(obj.innerHTML.toUpperCase()))){
+         $(obj).css("display", "none")
+      }
+  });
+  console.log("aa")
+  $('.newsRSS').each(function(i, obj) {
+   console.log("aa")
+   console.log($(obj).find("card-text").innerHTML)
+   // if(!(obj.innerHTML.toUpperCase().includes(keyword.toUpperCase()) || keyword.toUpperCase().includes(obj.innerHTML.toUpperCase()))){
+   //    $(obj).css("display", "none")
+   // }
+});
+
+   }
+   //    $(".textInput").css("background-color", "var(--clrBgAccentSoft)")
+   //    $(".textInput").focus(function(e) {
+   //       e.preventDefault();
+   //   });
+   //   $(".inputCon").append('<div id="blocker" style="position:absolute; left:0; right:0; top:0; bottom:0;"></div>')
+   }
+}
+
+
+// $('body').on('click', '#blocker', function() {
+//    var x = document.getElementById("snackbar");
+// })
+
