@@ -46,10 +46,6 @@ a{
     background-color: var(--clrBgAccentSoft);
     color: var(--clrBgOpp);
 }
-.searchButton:hover, .jumpButton:hover{
-    background-color: var(--clrStrongFocus) !important;
-    color: var(--clrBgAccentLoud) !important;
-}
 
 
 .modal-content{

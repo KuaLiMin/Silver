@@ -103,7 +103,13 @@ function addTop() {
 /*change font*/
 function changefont(){
     if(localStorage.font == '1'){
-        $("body").get(0).style.setProperty('--mainFont', "'Patua One', cursive")
+        $("body").get(0).style.setProperty('--mainFont', "'Merriweather', serif;")
+    }else if(localStorage.font == '2'){
+        $("body").get(0).style.setProperty('--mainFont', "'Heebo', sans-serif;")
+    }else if(localStorage.font == '3'){
+        $("body").get(0).style.setProperty('--mainFont', "'Fira Sans', sans-serif;")
+    }else if(localStorage.font == '4'){
+        $("body").get(0).style.setProperty('--mainFont', "'Roboto Mono', monospace;")
     }
     else{
         $("body").get(0).style.setProperty('--mainFont', "'Varela Round', sans-serif")
