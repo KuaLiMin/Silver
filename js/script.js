@@ -20,9 +20,28 @@ function lsCheck() {
         } 
     }
 
+
+    if (!(localStorage.hasOwnProperty("zoom"))) {
+        localStorage.font = 0
+    } else {
+        font = localStorage.getItem("zoom")
+        if (!(/^\d+$/.test(theme) && theme.length > 0)) {
+            localStorage.zoom = 100
+        } 
+        else if(!(localStorage.zoom >= 75 && localStorage.zoom <=110)){
+            localStorage.zoom = 100
+        }
+    }
+
     addTop()
     changecolour()
     changefont()
+
+   if( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))){
+          
+    document.body.style.zoom = localStorage.zoom/100;
+   }
+
 }
 
 
@@ -45,7 +64,7 @@ function addTop() {
             <nav class="navbar navbar-expand-lg navbar-light">
             <!-- Links that are aligned to the left -->
             <!-- logo -->
-            <div class="p-0 silverCon m-3"><span id="navbar-brand" class="navbar-brand">Silver</span><div class="col-3 p-0" id="lottie"></div></div>
+            <div class="p-0 silverCon m-3"><span id="navbar-brand" class="navbar-brand">Silver</span><div style="max-width: 40px" class="col-3 p-0" id="lottie"></div></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <img class="navbar-toggler-icon" src="../media/images/icons/menudot.svg" style="max-height:100%; max-width:8.5px" alt="logo">
             </button>
@@ -103,13 +122,14 @@ function addTop() {
 /*change font*/
 function changefont(){
     if(localStorage.font == '1'){
-        $("body").get(0).style.setProperty('--mainFont', "'Merriweather', serif;")
+        $("body").get(0).style.setProperty('--mainFont', "'Merriweather', serif")
+        
     }else if(localStorage.font == '2'){
-        $("body").get(0).style.setProperty('--mainFont', "'Heebo', sans-serif;")
+        $("body").get(0).style.setProperty('--mainFont', "'Heebo', sans-serif")
     }else if(localStorage.font == '3'){
-        $("body").get(0).style.setProperty('--mainFont', "'Fira Sans', sans-serif;")
+        $("body").get(0).style.setProperty('--mainFont', "'Fira Sans', sans-serif")
     }else if(localStorage.font == '4'){
-        $("body").get(0).style.setProperty('--mainFont', "'Roboto Mono', monospace;")
+        $("body").get(0).style.setProperty('--mainFont', "'Roboto Mono', monospace")
     }
     else{
         $("body").get(0).style.setProperty('--mainFont', "'Varela Round', sans-serif")

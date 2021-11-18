@@ -39,7 +39,7 @@
 
     <main id="settings">
         <h1 class="col-12 mb-3 mt-5 text-center" style="font-family:var(--headFont)">Settings</h1>
-        <p class="col-12 text-center">Silver is a website for <i>you</i>. Choose from colour schemes, fonts, and zoom distances to fit your needs.</p>
+        <p class="col-12 text-center">Silver is a website for <i>you</i>. Choose from colour schemes, fonts, and zoom distances on your PC to fit your needs.</p>
         <div class="mx-auto col-md-6 col-11">
         
         <form class="d-flex justify-content-center flex-wrap">
@@ -63,16 +63,16 @@
             </select>
 
 
-            <div class="col-12 my-4 p-0 input-group mb-3">
+            <div class="col-12 my-4 p-0 d-md-flex d-none input-group mb-3">
                 <input placeholder="Zoom Amount" type="number" min="75" max="250" step="1" onkeydown="return false" class="col-12 form-control" id="zoom"/>
-                <div class="input-group-append">
-                  <span class="input-group-text" id="basic-addon2"><b style="font-size: larger">%</b> &ensp; (use up and down arrows to toggle)</span>
+                <div class="input-group-append bg-transparent">
+                  <span  style="background-color: var(--clrStrongFocus) !important;" class="input-group-text" id="basic-addon2"><b style="font-size: larger">%</b> &ensp; (use up and down arrows to toggle)</span>
                 </div>
            </div>
 
 
     
-            <button type="submit" class="col-3 mt-5 mx-auto btn jumpButton" style="background-color: var(--clrStrong);">Button</button>
+            <button onclick="update()" class="col-5 mt-5 mx-auto btn jumpButton" style="background-color: var(--clrStrong);">Update Settings</button>
         </form>
         </div>
 
