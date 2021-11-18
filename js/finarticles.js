@@ -308,7 +308,8 @@ function tutorialArticles(){
                     
              </div>
              `],
-        "art2": ["How to Calculate the Percentage Gain or Loss on an Investment", `<img class="col-12" src=""https://ibb.co/gZNZwbv"><img src="https://i.ibb.co/b5T5LjH/2021-11-17.png" alt="2021-11-17" border="0"/>
+        "art2": ["How to Calculate the Percentage Gain or Loss on an Investment", `<p>Details: The Investopedia Team, Reviewed by, Somer Anderson
+        </p><img class="col-12" src=""https://ibb.co/gZNZwbv"><img src="https://i.ibb.co/b5T5LjH/2021-11-17.png" alt="2021-11-17" border="0"/>
 
         <!-- Another paragraph-->
         <p>Learning how to calculate the percentage gain of your investment is straightforward and is a critical piece of information in the investor toolbox.
