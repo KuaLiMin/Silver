@@ -518,7 +518,7 @@ function tutorialArticles(){
   Personal finance includes the purchasing of financial products such as credit cards, insurance, mortgages, and various types of investments. Banking is also considered a component of personal finance because individuals use checking and savings accounts as well as online or mobile payment services such as PayPal and Venmo.
   </p>
   <h3>Finance</h3>
-  <h4>Corporate Finance<h4>
+  <h4>Corporate Finance</h4>
   <p>Corporate finance refers to the financial activities related to running a corporation, usually with a division or department set up to oversee those financial activities.
   One example of corporate finance: A large company may have to decide whether to raise additional funds through a bond issue or stock offering. Investment banks may advise the firm on such considerations and help it market the securities.
   Startups may receive capital from angel investors or venture capitalists in exchange for a percentage of ownership. If a company thrives and decides to go public, it will issue shares on a stock exchange through an initial public offering (IPO) to raise cash.
