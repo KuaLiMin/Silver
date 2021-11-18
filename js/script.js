@@ -31,7 +31,7 @@ function lsCheck() {
 function addTop() {
     /*check for main*/
     if($('main').length != 1){
-        location.href='../html/index.html'
+        location.href='../index.html'
         return
     }
 
@@ -93,13 +93,16 @@ function addTop() {
             </div>
         </nav>
     `).insertBefore("main");
+
+    $('a[href$="'+ $('main').attr('id') +'.html"]').attr('style', 'color: var(--clrStrongFocus) !important');
+
     }
 
 }
 
 /*change font*/
 function changefont(){
-    if(localStorage.theme == '1'){
+    if(localStorage.font == '1'){
         $("body").get(0).style.setProperty('--mainFont', "'Patua One', cursive")
     }
     else{
@@ -108,11 +111,10 @@ function changefont(){
 }
 
 
-
 /*change theme*/
 function changecolour(){
     if(localStorage.theme == '1'){ /* dark mode*/
-        ivebeencheckingmyList=['#000', '#FFF' , '#002020', "#F99C15", '#FFCE4C', '#161616', '#4d4d4d', '#1b4263']
+        ivebeencheckingmyList=['#000', '#FFF' , '#FFF', "#F99C15", '#FFCE4C', '#161616', '#F99C15', '#1b4263']
         $("<style>")
             .prop("type", "text/css")
             .html("\
@@ -135,6 +137,54 @@ function changecolour(){
             .appendTo("head")
             setColours(ivebeencheckingmyList)
     }
+    else if(localStorage.theme == '3'){ /* Red-Green mode*/
+        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#0083c2", '#ffff01', '#ffe24d', '#AEAEAE', '#525252']
+        $("<style>")
+            .prop("type", "text/css")
+            .html("\
+            .aSVG {\
+                filter: invert(100%);\
+            }\
+            ")
+            .appendTo("head")
+            setColours(ivebeencheckingmyList)
+    }
+    else if(localStorage.theme == '4'){ /* Blue-Yellow mode*/
+        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#970196", '#ba6c96', '#d1a1a4', '#AEAEAE', '#525252']
+        $("<style>")
+            .prop("type", "text/css")
+            .html("\
+            .aSVG {\
+                filter: invert(100%);\
+            }\
+            ")
+            .appendTo("head")
+            setColours(ivebeencheckingmyList)
+    }
+    else if(localStorage.theme == '4'){ /* Blue-Yellow mode*/
+        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#970196", '#ba6c96', '#d1a1a4', '#AEAEAE', '#525252']
+        $("<style>")
+            .prop("type", "text/css")
+            .html("\
+            .aSVG {\
+                filter: invert(100%);\
+            }\
+            ")
+            .appendTo("head")
+            setColours(ivebeencheckingmyList)
+    }
+    else if(localStorage.theme == '5'){ /* Non-Color mode*/
+        ivebeencheckingmyList=['#000', '#fff' , '#fff', "#000", '#000', '#000', '#fff', '#000']
+        $("<style>")
+            .prop("type", "text/css")
+            .html("\
+            .aSVG {\
+                filter: invert(100%);\
+            }\
+            ")
+            .appendTo("head")
+            setColours(ivebeencheckingmyList)
+    }   
     else{
         ivebeencheckingmyList=['#FFF', '#000' , '#C4F3F3', "#FFCE4C", '#F99C15', '#f8f8f8', '#D9D9D9', '#6E6C80']
         setColours(ivebeencheckingmyList)

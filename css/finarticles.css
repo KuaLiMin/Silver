@@ -1,0 +1,30 @@
+.card-text, .card-title{
+    color: var(--clrBgOpp) !important;
+
+}
+.text-muted{
+    color: var(--clrBgAccentMute) !important;
+}
+
+.cardicle{
+    border: 2px solid var(--clrBgAccentSoft) !important;
+}
+
+.cardicle:hover{
+    border: 2px solid var(--clrBgAccent) !important;
+}
+
+
+
+.cardicle:hover
+{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}

@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
-      <title>Finance Articles</title>
+      <title>Edit Goals</title>
       <link rel="icon" href="..\media\images\icons\tabIcon.png">
       <!-- Required meta tags -->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="normalize.css">
       <!-- CSS -->
       <link rel="stylesheet" href="..\css\style.css">
-      <link rel="stylesheet" href="..\css\finarticles.css">
+      <link rel="stylesheet" href="..\css\savinggoals.css">
       <!--Fonts-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,75 +37,67 @@
   </head>
   <body>
 
-    <main id="finarticles">
-      <section class="articles d-flex justify-content-around flex-nowrap">
-        <section class="financeart border border-2 col-5"><h1 class=" text-center my-5 headText">Learn Finance</h1>
-          
-          <div class="card border-0">
-            <div class="list-group lessonsList border-0 list-group-flush">
-              <button class="cardicle list-group-item bg-transparent border-0">Cras justo odio</button>
-              <button class="cardicle list-group-item bg-transparent border-0">Dapibus ac facilisis in</button>
-              <button class="cardicle list-group-item bg-transparent border-0">Vestibulum at eros</button>
-            </div>
-          </div>
+    <main id="editgoals">
+      
 
 
 
+        <!-- content! -->
+        <!-- Creating the Holiday Goals Page-->
+        <h2>Holidays Goals Page</h2>
+
+        <form action="/action_page.php">
+
+            <!-- Image -->
+            <img src = "https://i.ibb.co/hsFJQhF/holiday.png" alt = "Holiday Goals">
+            <br><br>
+            
+            <!-- Country Text Box-->
+            <label for="coun">Country:</label><br>
+            
+            <!-- Country Input Text Box-->
+            <input type="text" id="coun" name = "coun" 
+            placeholder="Enter your country:">
+            <br>
+
+            <!-- Goal Amount Text Box-->
+            <label for="goalamt">Goal Amount:</label><br>
+
+            <!-- Goal Amount Input Text Box-->
+            $<input type="text" id="goalamt" name = "goalamt" placeholder="Enter Goal Amount:">
+            <br>
+
+            
 
 
 
-      </section>
-        <section class="financenews border border-2 col-5"><h1 class="my-5 text-center headText">Finance News</h1>
-          <div class="theNews col-12">
-            <p class="my-5" style="text-align:center;"><a style="text-align:center;color: var(--clrStrongFocus)" href="https://cors-anywhere.herokuapp.com/" ><u>Please click me and reload to establish a connection for the news!</u></a></p>
-          </div>
-        </section>
-      </section>
+            <!-- Duration Text Box-->
+            <label for="dur">Duration:</label><br>
+
+            <!-- Duration Input Text Box-->
+            <input type="text" id="dur" name = "dur" placeholder="Enter Duration:">
+            <br><br>
+
+            <!-- Create the "Edit Goal" button-->
+            <button type="button">Edit Goal</button>
+
+            <!-- Create the "Delete Goal" button-->
+            <button type="button">Delete Goal</button>
+
+        </form>
+
+
+
     </main>
-
-
-
-
-
-
-              <!-- MODAL -->
-              <div class="modalCon">
-              
-                <!-- The Modal -->
-                <div class="modal fade" id="newsModal">
-                  <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                    
-                      <!-- Modal Header -->
-                      <div class="modal-header">
-                        <h4 class="modal-title">Modal Heading</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      </div>
-                      
-                      <!-- Modal body -->
-                      <div class="modal-body">
-                        Modal body..
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-
-
-
-
-
 
     <div id="snackbar"></div>
     <!-- lottie & bodymovin -->
-    <script src="https://cdnjs.cloudflare.com/ajax/buttonbs/bodymovin/5.7.4/lottie.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/buttonbs/bodymovin/4.13.0/bodymovin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin.js"></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/buttonbs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- Javascript-->
     <script src="..\js\script.js"></script>

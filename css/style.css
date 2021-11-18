@@ -81,6 +81,10 @@ a:hover {
 	color: var(--clrBgOpp);
 }
 
+.headText{
+	font: x-large;
+	font-family: var(--headFont);
+}
 
 /* Silver logo text*/
 
