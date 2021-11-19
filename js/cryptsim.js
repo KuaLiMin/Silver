@@ -1,7 +1,7 @@
 cryptsimLessons()
 function cryptsimLessons(){
     lessons = {
-        "les1": ["Holding & Selling", `<iframe class="col-12" src="https://connectnpedu-my.sharepoint.com/personal/s10206234_connect_np_edu_sg/_layouts/15/Doc.aspx?sourcedoc={cc94c405-5a1f-4d17-bff8-9d2dc9fb1af5}&amp;action=embedview&amp;wdAr=1.3333333333333333" width="1026px" height="793px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>`],
+        "les1": ["Holding & Selling", `<iframe src="https://connectnpedu-my.sharepoint.com/personal/s10182658_connect_np_edu_sg/_layouts/15/Doc.aspx?sourcedoc={21e0415f-9c8f-49f8-9cda-bd2c8ec714a0}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="962px" height="565px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>`],
         "les2": ["What Is A Broker", "story"],
         "les3": ["What Is A Fund House", `<p>helloooo</p>`],
         "les4": ["Risk Appetite Experiment", `<p>helloooo</p>`],
