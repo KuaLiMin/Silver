@@ -20,9 +20,28 @@ function lsCheck() {
         } 
     }
 
+
+    if (!(localStorage.hasOwnProperty("zoom"))) {
+        localStorage.font = 0
+    } else {
+        font = localStorage.getItem("zoom")
+        if (!(/^\d+$/.test(theme) && theme.length > 0)) {
+            localStorage.zoom = 100
+        } 
+        else if(!(localStorage.zoom >= 75 && localStorage.zoom <=110)){
+            localStorage.zoom = 100
+        }
+    }
+
     addTop()
     changecolour()
     changefont()
+
+   if( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))){
+          
+    document.body.style.zoom = localStorage.zoom/100;
+   }
+
 }
 
 
@@ -45,7 +64,7 @@ function addTop() {
             <nav class="navbar navbar-expand-lg navbar-light">
             <!-- Links that are aligned to the left -->
             <!-- logo -->
-            <div class="p-0 silverCon m-3"><span id="navbar-brand" class="navbar-brand">Silver</span><div class="col-3 p-0" id="lottie"></div></div>
+            <div class="p-0 silverCon m-3"><span id="navbar-brand" class="navbar-brand">Silver</span><div style="max-width: 40px" class="col-3 p-0" id="lottie"></div></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <img class="navbar-toggler-icon" src="../media/images/icons/menudot.svg" style="max-height:100%; max-width:8.5px" alt="logo">
             </button>
@@ -103,7 +122,14 @@ function addTop() {
 /*change font*/
 function changefont(){
     if(localStorage.font == '1'){
-        $("body").get(0).style.setProperty('--mainFont', "'Patua One', cursive")
+        $("body").get(0).style.setProperty('--mainFont', "'Merriweather', serif")
+        
+    }else if(localStorage.font == '2'){
+        $("body").get(0).style.setProperty('--mainFont', "'Heebo', sans-serif")
+    }else if(localStorage.font == '3'){
+        $("body").get(0).style.setProperty('--mainFont', "'Fira Sans', sans-serif")
+    }else if(localStorage.font == '4'){
+        $("body").get(0).style.setProperty('--mainFont', "'Roboto Mono', monospace")
     }
     else{
         $("body").get(0).style.setProperty('--mainFont', "'Varela Round', sans-serif")
@@ -114,7 +140,7 @@ function changefont(){
 /*change theme*/
 function changecolour(){
     if(localStorage.theme == '1'){ /* dark mode*/
-        ivebeencheckingmyList=['#000', '#FFF' , '#FFF', "#F99C15", '#FFCE4C', '#161616', '#F99C15', '#1b4263']
+        ivebeencheckingmyList=['#000', '#FFF' , '#FFF', "#F99C15", '#FFCE4C', '#161616', '#434952', '#1b4263']
         $("<style>")
             .prop("type", "text/css")
             .html("\
@@ -138,7 +164,7 @@ function changecolour(){
             setColours(ivebeencheckingmyList)
     }
     else if(localStorage.theme == '3'){ /* Red-Green mode*/
-        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#0083c2", '#ffff01', '#ffe24d', '#AEAEAE', '#525252']
+        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#0083c2", '#cfe2f3', '#2986cc', '#AEAEAE', '#525252']
         $("<style>")
             .prop("type", "text/css")
             .html("\
@@ -150,19 +176,7 @@ function changecolour(){
             setColours(ivebeencheckingmyList)
     }
     else if(localStorage.theme == '4'){ /* Blue-Yellow mode*/
-        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#970196", '#ba6c96', '#d1a1a4', '#AEAEAE', '#525252']
-        $("<style>")
-            .prop("type", "text/css")
-            .html("\
-            .aSVG {\
-                filter: invert(100%);\
-            }\
-            ")
-            .appendTo("head")
-            setColours(ivebeencheckingmyList)
-    }
-    else if(localStorage.theme == '4'){ /* Blue-Yellow mode*/
-        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#970196", '#ba6c96', '#d1a1a4', '#AEAEAE', '#525252']
+        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#970196", '#ba6c96', '#f4cccc', '#eeeeee', '#525252']
         $("<style>")
             .prop("type", "text/css")
             .html("\

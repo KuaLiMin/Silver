@@ -203,6 +203,15 @@ a:hover {
   pointer-events: none;
 }
 
+
+
+.searchButton:hover, .jumpButton:hover{
+    background-color: var(--clrStrongFocus) !important;
+    color: var(--clrBgAccentLoud) !important;
+}
+
+
+
 /*webkit animeation*/
 
 @-webkit-keyframes fadein {

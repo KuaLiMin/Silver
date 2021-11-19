@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Finance Articles</title>
+      <link rel="icon" href="..\media\images\icons\tabIcon.png">
+      <!-- Required meta tags -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!-- Normalise CSS -->
+      <link rel="stylesheet" href="normalize.css">
+      <!-- CSS -->
+      <link rel="stylesheet" href="..\css\style.css">
+      <link rel="stylesheet" href="..\css\settings.css">
+      <!--Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <!--lottie-->
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <!-- fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+      <!-- font-family: 'Playball', cursive; -->
+      <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+      <!-- font-family: 'Heebo', sans-serif; -->
+      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+      <!-- font-family: 'Fira Sans', sans-serif; -->
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+      <!-- font-family: 'Roboto Mono', monospace; -->
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+      <!-- font-family: 'Merriweather', serif; -->
+      <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+      <!-- font-family: 'Patua One', cursive; -->
+      <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+      <!-- font-family: 'Varela Round', sans-serif; -->
+  </head>
+  <body>
+
+    <main id="settings">
+        <h1 class="col-12 mb-3 mt-5 text-center" style="font-family:var(--headFont)">Settings</h1>
+        <p class="col-12 text-center">Silver is a website for <i>you</i>. Choose from colour schemes, fonts, and zoom distances on your PC to fit your needs.</p>
+        <div class="mx-auto col-md-6 col-11">
+        
+        <form class="d-flex justify-content-center flex-wrap">
+            
+            <select class="my-4 form-select col-12 form-control" id="theme" aria-label="select">
+                <option disabled selected>Select a theme</option>
+                <option value="0">Default (Light)</option>
+                <option value="1">Dark</option>
+                <option value="3">Red-Green Blindness Filter</option>
+                <option value="4">Blue-Yellow Blindness Filter</option>
+                <option value="5">High Contrast Dark</option>
+            </select>
+
+            <select class="my-4 col-12 form-control" id="font" aria-label="select">
+                <option disabled selected>Select a main font</option>
+                <option style="font-family: 'Varela Round', sans-serif;" value="0">Default (Valera Round)</option>
+                <option style="font-family: 'Merriweather', serif;" value="1">Merriweather</option>
+                <option style="font-family: 'Heebo', sans-serif;" value="2">Heebo</option>
+                <option style="font-family: 'Fira Sans', sans-serif;" value="3">Fira Sans</option>
+                <option style="font-family: 'Roboto Mono', monospace;" value="4">Roboto Mono</option>
+            </select>
+
+
+            <div class="col-12 my-4 p-0 d-md-flex d-none input-group mb-3">
+                <input placeholder="Zoom Amount" type="number" min="75" max="250" step="1" onkeydown="return false" class="col-12 form-control" id="zoom"/>
+                <div class="input-group-append bg-transparent">
+                  <span  style="background-color: var(--clrStrongFocus) !important;" class="input-group-text" id="basic-addon2"><b style="font-size: larger">%</b> &ensp; (use up and down arrows to toggle)</span>
+                </div>
+           </div>
+
+
+    
+            <button onclick="update()" class="col-5 mt-5 mx-auto btn jumpButton" style="background-color: var(--clrStrong);">Update Settings</button>
+        </form>
+        </div>
+
+    </main>
+
+    <div id="snackbar"></div>
+     <!-- lottie & bodymovin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin.js"></script>
+    <!-- jQuery -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Javascript-->
+   <!-- Javascript-->
+    <script src="..\js\script.js"></script>
+    <script src="..\js\settings.js"></script>
+
+    
+</body>
+</html>
