@@ -22,7 +22,7 @@ function lsCheck() {
 
 
     if (!(localStorage.hasOwnProperty("zoom"))) {
-        localStorage.font = 0
+        localStorage.zoom = 100
     } else {
         font = localStorage.getItem("zoom")
         if (!(/^\d+$/.test(theme) && theme.length > 0)) {
@@ -208,7 +208,6 @@ function changecolour(){
 }
 
 function setColours(ivebeencheckingmyList){
-    console.log(ivebeencheckingmyList)
     colourDic = {
         "Bg": ivebeencheckingmyList[0],
         "BgOpp": ivebeencheckingmyList[1],
