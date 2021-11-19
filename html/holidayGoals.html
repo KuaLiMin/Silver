@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>Edit Goals</title>
-      <link rel="icon" href="..\media\images\icons\tabIcon.png">
-      <!-- Required meta tags -->
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <!-- Normalise CSS -->
-      <link rel="stylesheet" href="normalize.css">
-      <!-- CSS -->
-      <link rel="stylesheet" href="..\css\style.css">
-      <link rel="stylesheet" href="..\css\savinggoals.css">
-      <!--Fonts-->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <!--lottie-->
-      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      <!-- fonts -->
-      <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
-      <!-- font-family: 'Playball', cursive; -->
-      <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
-      <!-- font-family: 'Heebo', sans-serif; -->
-      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
-      <!-- font-family: 'Fira Sans', sans-serif; -->
-      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-      <!-- font-family: 'Roboto Mono', monospace; -->
-      <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-      <!-- font-family: 'Merriweather', serif; -->
-      <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
-      <!-- font-family: 'Patua One', cursive; -->
-      <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-      <!-- font-family: 'Varela Round', sans-serif; -->
-  </head>
-  <body>
 
-    <main id="editgoals">
-      
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Holiday Goals</title>
+    <link rel="icon" href="..\media\images\icons\tabIcon.png">
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Normalise CSS -->
+    <link rel="stylesheet" href="normalize.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="..\css\style.css">
+    <link rel="stylesheet" href="..\css\savinggoals.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--lottie-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <!-- font-family: 'Playball', cursive; -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <!-- font-family: 'Heebo', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <!-- font-family: 'Fira Sans', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!-- font-family: 'Roboto Mono', monospace; -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- font-family: 'Merriweather', serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <!-- font-family: 'Patua One', cursive; -->
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- font-family: 'Varela Round', sans-serif; -->
+</head>
+
+<body>
+
+    <main id="holidaygoals">
+
 
 
 
@@ -46,28 +48,27 @@
         <!-- Creating the Holiday Goals Page-->
         <h2>Holidays Goals Page</h2>
 
-        <form action="/action_page.php">
+        <form action="/action_page.php" id="holiday">
 
             <!-- Image -->
-            <img src = "https://i.ibb.co/hsFJQhF/holiday.png" alt = "Holiday Goals">
+            <img src="https://i.ibb.co/hsFJQhF/holiday.png" alt="Holiday Goals">
             <br><br>
-            
+
             <!-- Country Text Box-->
             <label for="coun">Country:</label><br>
-            
+
             <!-- Country Input Text Box-->
-            <input type="text" id="coun" name = "coun" 
-            placeholder="Enter your country:">
+            <input type="text" id="coun" name="coun" placeholder="Enter your country:">
             <br>
 
             <!-- Goal Amount Text Box-->
             <label for="goalamt">Goal Amount:</label><br>
 
             <!-- Goal Amount Input Text Box-->
-            $<input type="text" id="goalamt" name = "goalamt" placeholder="Enter Goal Amount:">
+            $<input type="text" id="goalamt" name="goalamt" placeholder="Enter Goal Amount:">
             <br>
 
-            
+
 
 
 
@@ -75,7 +76,7 @@
             <label for="dur">Duration:</label><br>
 
             <!-- Duration Input Text Box-->
-            <input type="text" id="dur" name = "dur" placeholder="Enter Duration:">
+            <input type="text" id="dur" name="dur" placeholder="Enter Duration:">
             <br><br>
 
             <!-- Create the "Edit Goal" button-->
@@ -91,6 +92,11 @@
     </main>
 
     <div id="snackbar"></div>
+    <script>
+        // make auth and firebase references
+        const auth = firebase.auth();
+        const db = firebase.database();
+    </script>
     <!-- lottie & bodymovin -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin.js"></script>
@@ -101,6 +107,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- Javascript-->
     <script src="..\js\script.js"></script>
-    <script src="..\js\finarticles.js"></script>
+    <script src="..\js\editgoals.js"></script>
 </body>
+
 </html>
