@@ -565,7 +565,10 @@ function tutorialArticles(){
     "art9": ["What Is Inflation & Why You Should Care", ``],
     "art10": ["How To Tell If You're Buying Smart", ``],
     "art11": ["What is the best thing I can do befor a GST hike?", ``],
-    "art12": ["Why proachiever matters", ``]
+    "art12": ["Why proachiever matters", ``],
+    "art13":[ "Asia vs Europe, what decisions are best made where?", ``],
+    "art13":[ "China's investment ideals with Japan explained",``],
+    "art13":[ "How to save for that trip to Japan", ""]
     }
 
 
@@ -594,10 +597,11 @@ function searchArt(){
    $(".textInput")[0]["value"] = ""
    $(".searchButton").text("Search")
    $('.finLesson, .newsRSS').css("display", "block")
+   $(".textInput").prop('readonly', false);
    
    } else{
    $(".searchButton").text("X")
-   
+   $(".textInput").prop('readonly', true);
    
    $('.finLesson').each(function(i, obj) {
       obj.innerHTML
@@ -619,8 +623,15 @@ function searchArt(){
 }
 
 
+$('body').on('click', '.textInput', function() {
+    if($(".textInput").attr("readonly") =="readonly"){
+        var x = document.getElementById("snackbar");
+        x.className = "show";
+        x.innerHTML = "Please press the 'X' to clear your search!"
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 
-
+    }
+})
 
 function scrollDown(){
    $('html, body').animate({
