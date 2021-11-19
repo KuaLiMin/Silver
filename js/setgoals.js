@@ -11,9 +11,9 @@ async function submitForm() {
     //     description: 'please'
     //})
     const data = {
-        goal: '4300',
+        goal: '$1000',
         duration: '10122020',
-        description: 'please'
+        description: 'Holiday to Japan'
     }
     db
         .collection('users')
