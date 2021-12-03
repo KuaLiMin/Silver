@@ -1,0 +1,4 @@
+select, input{
+    background-color: var(--clrBgAccentSoft) !important;
+    color:  var(--clrBgOpp) !important;
+}
