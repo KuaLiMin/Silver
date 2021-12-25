@@ -104,6 +104,7 @@ a:hover {
 .dropdown-item {
 	font-weight: bolder;
 	color: var(--clrBgAccentLoud) !important;
+	font-size: 1.3rem;
 }
 
 .nav-link:hover,
