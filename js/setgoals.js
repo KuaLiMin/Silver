@@ -1,5 +1,4 @@
 async function submitForm() {
-    console.log("abc")
         // const category = InputEvent('Goals Category').value;
         // const gamount = InputEvent('gamount').value;
         // const gduration = InputEvent('GDuration').value;

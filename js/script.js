@@ -217,9 +217,6 @@ function setColours(ivebeencheckingmyList){
         "AccentMute": ivebeencheckingmyList[6],
         "AccentLoud": ivebeencheckingmyList[7]
     }
-    
-    console.log(colourDic)
-
 
     $("body").get(0).style.setProperty('--clrBg', colourDic["Bg"]);
     $("body").get(0).style.setProperty('--clrBgOpp', colourDic["BgOpp"]);

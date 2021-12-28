@@ -20,7 +20,6 @@ function cryptsimLessons(){
 
 
 $('body').on('click', '.finLesson', function() {
-    console.log("abc")
     id = jQuery(this).attr("id")
  
     $(".modal-title").text(lessons[jQuery(this).attr("id")][0])
