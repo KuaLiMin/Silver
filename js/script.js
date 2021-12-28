@@ -56,7 +56,6 @@ function addTop() {
 
     
     var page = $('main').attr('id');
-    console.log(page)
     navBlackList = ["index", "cpfcalculator", "cryptsim", "savinggoals"]
     /*if page is not is blacklist, add navbar*/
     if(!navBlackList.includes(page)){
@@ -218,6 +217,8 @@ function setColours(ivebeencheckingmyList){
         "AccentMute": ivebeencheckingmyList[6],
         "AccentLoud": ivebeencheckingmyList[7]
     }
+    
+    console.log(colourDic)
 
 
     $("body").get(0).style.setProperty('--clrBg', colourDic["Bg"]);
