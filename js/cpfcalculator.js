@@ -54,7 +54,7 @@ function calculateSetValues(){
 
   //get values
   initialAmount = $("#initialamount").val()
-  annualReturn = $("#annualreturn").val()
+  annualReturn = $("input[type='radio'][name='inlineRadioOptions']:checked").val()
   duration = $("#duration").val()
   cashflow = $("#cashflow").val()
   iterate = $("#iteratedropdown").val()
