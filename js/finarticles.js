@@ -179,7 +179,7 @@ function tutorialArticles(){
   Other emerging industries that are making significant contributions to Singapore’s economy include medical technology, aerospace engineering, clean energy, healthcare, and content development.
   </p>
   <p>Below is a list of Singapore’s top industries according to their GDP contribution:</p>
-   <img class="col-12" "https://i.ibb.co/rx2cskt/Screenshot-2021-11-18-153534.jpg" alt="Screenshot">
+   <img class="col-12" src="https://i.ibb.co/rx2cskt/Screenshot-2021-11-18-153534.jpg" alt="Screenshot">
   <h3>What natural resources does Singapore have?</h3>
   <p>Located at the southernmost tip of the Malaysian peninsula and with a land area smaller than that of New York’s, Singapore has no significant natural resources. 
   However, this did not stop Singapore from developing itself into a regional hub for oil and gas, as well as a world leader in sustainable water solutions and projects such as NEWater and the Deep Tunnel Sewerage System.
@@ -216,12 +216,12 @@ function tutorialArticles(){
   Singapore exported $$515 billion worth of goods in 2017, with its primary export partners being the United States, Australia, Japan, China and the United Kingdom.
   It also imported S$452.1 billion worth of goods in 2017, with its primary import partners being the United States, Netherlands, China, Hong Kong and Japan.
   </p>
-  
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WSKLrGJyELE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   `],
 "art3": ["Investing for Retirement", `<img class="col-12" src="https://i.ibb.co/KWMkCQ2/elderly-woman-laptop.jpg"/>
     
 <!-- Credit to the Authors-->
-<p>Wrriten By: <a href = "https://www.moneysense.gov.sg/" target = "_blank"><u>Moneysense.gov.sg</u></a></p>
+<p>Writen By: <a href = "https://www.moneysense.gov.sg/" target = "_blank"><u>Moneysense.gov.sg</u></a></p>
   
   <p>Written On: 05 November 2018</p>
   
@@ -280,7 +280,7 @@ function tutorialArticles(){
       
       <p>See Also: <a href = "https://www.moneysense.gov.sg/starter-packs/get-started-with-investing?sc_lang=en" target = "_blank">
           <u>Get started with investing</u></a></p>
-      
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/FKrm2Laetvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>`],
   "art4": ["How to Calculate the Percentage Gain or Loss on an Investment", `<p>Details: The Investopedia Team, Reviewed by, Somer Anderson
         </p><img class="col-12" src=""https://ibb.co/gZNZwbv"><img class="col-12" src="https://i.ibb.co/b5T5LjH/2021-11-17.png" alt="2021-11-17" border="0"/>
@@ -359,6 +359,7 @@ function tutorialArticles(){
     If the stock wasn't held for one year and, instead, was held for two quarters, we would add $100 to the gain amount (instead of $200) since the quarterly dividend payments would be $50 each.
     By incorporating the transaction costs, account fees, commissions, and dividend income, investors can obtain a more accurate representation of the percentage gain or loss on an investment.﻿
     </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XeYtgIOgm2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     `],
     "art5": ["7 Personal Finance resolutions you’ll be able to keep — and how", `<!-- Image for the Web Page-->
   <img class="col-12" src="https://i.ibb.co/kSNVqrD/fhc-banner.jpg"/>
@@ -559,7 +560,60 @@ function tutorialArticles(){
               
        </div>
        `],
-    "art6": ["Finance & Age, what changes?", ``],
+    "art6": ["Is investment safe?", `<!-- Image for the Web Page-->
+    <img class="col-12" src="https://i.ibb.co/wL76GSt/8-Investment-Myths-To-Be-Avoided.jpg"/>
+    <div>
+    <p>Image from: <a href = "https://www.holisticinvestment.in/investment-myths/">Holistic Investment Planners</a>
+    </p>
+    </div
+    <p>Wrriten By: <a href = "The investopedia Team"><u>https://www.investopedia.com/ask/answers/021615/what-safest-investment.asp</u></a></p>
+         
+         <p>Written On: 22 Jan 2021</p>
+         
+         <br>
+         
+         <!-- Introductory Section -->
+         
+         <div>
+             <p>
+                 Due to the variety of options on the market and the unpredictability of the economic climate, it is difficult to identify one investment that is clearly safest. But some investment categories are significantly safer than others. 
+             </p>
+         
+             <p>
+                 For example, certificates of deposit (CDs), money market accounts, municipal bonds and Treasury Inflation-Protected Securities (TIPS) are among the safest types of investments. 
+             </p>
+         
+             <p>
+                 Certificates of deposit involve giving money to a bank that then returns it with interest after a certain period of time. All bank accounts, including CDs, are guaranteed by the Federal Deposit Insurance Corporation (FDIC) for up to $250,000, so even if the bank is unable to pay you back, the FDIC will, up to that amount. However, the yield of CDs is relatively low. For example, according to a 2015 Bankrate survey, 5-year CD yields were 0.87% annually.
+             </p>
+         
+             
+         </div>
+         
+         <!-- First Section -->
+         <div>
+              <p>
+                 Money market accounts are similar to CDs in that both are types of deposits at banks, so investors are fully insured up to $250,000. You can withdraw and deposit into money market accounts freely, unlike CDs, although there may be a maximum number of withdrawals per period. 
+             </p>
+  
+             <p>
+                 An investor does not have to keep the money in the account for a specified amount of time. Some banks require a minimum balance in money market accounts and charge maintenance fees if this minimum balance is not maintained.
+             </p>
+         </div>
+         <!-- Second section -->
+         <div>
+  
+             <p>
+      Municipal bonds are debt issued by the towns, cities, counties and states. These bonds are very safe if the issuer is not likely to default, and because they are tax-exempt, they can have very high yields given their level of safety.
+             </p>
+  
+             <p>
+                  TIPS are debts issued by the federal government with par value matched to inflation, so investors are protected from the risk of inflation while taking on the debt that is highly likely to be repaid.
+             </p>
+             
+         </div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/mLhjgysPnJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         `],
     "art7": ["Is Invesment Safe?", ``],
     "art8": ["Finance Terms Everyone Should Know", ``],
     "art9": ["What Is Inflation & Why You Should Care", ``],
