@@ -163,7 +163,7 @@ function changecolour(){
             setColours(ivebeencheckingmyList)
     }
     else if(localStorage.theme == '3'){ /* Red-Green mode*/
-        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#0083c2", '#cfe2f3', '#2986cc', '#AEAEAE', '#525252']
+        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#0083c2", '#cfe2f3', '#2986cc', '#AEAEAE', '#ffffff']
         $("<style>")
             .prop("type", "text/css")
             .html("\
@@ -175,7 +175,7 @@ function changecolour(){
             setColours(ivebeencheckingmyList)
     }
     else if(localStorage.theme == '4'){ /* Blue-Yellow mode*/
-        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#970196", '#ba6c96', '#f4cccc', '#eeeeee', '#525252']
+        ivebeencheckingmyList=['#ffffff', '#251327' , '#c9d3da', "#ffc2cd", '#ba6c96', '#f4cccc', '#eeeeee', '#525252']
         $("<style>")
             .prop("type", "text/css")
             .html("\
@@ -187,7 +187,7 @@ function changecolour(){
             setColours(ivebeencheckingmyList)
     }
     else if(localStorage.theme == '5'){ /* Non-Color mode*/
-        ivebeencheckingmyList=['#000', '#fff' , '#fff', "#000", '#000', '#000', '#fff', '#000']
+        ivebeencheckingmyList=['#fff', '#000' , '#555555', "#555555", '#fff', '#000', '#777777', '#999999']
         $("<style>")
             .prop("type", "text/css")
             .html("\
