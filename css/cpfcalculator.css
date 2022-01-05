@@ -1,0 +1,28 @@
+input{
+    background-color: transparent !important;
+    color: var(--clrBgOpp) !important;
+}
+
+.input-group-prepend>*, .input-group-append>*, #iteratedropdown{
+    background-color: var(--clrBgAccentSoft) !important;
+    color: var(--clrBgAccentLoud);
+}
+
+span { 
+    display:block;
+    word-wrap:break-word;
+}
+
+.bolded{
+    font-weight: 700;
+}
+
+#amountToggle:hover{
+    color: var(--clrBgAccent) !important;
+    background-color: var(--clrBgAccentLoud) !important;
+}
+
+#amountToggle{
+    background-color: var(--clrBgAccent) !important;
+    color: var(--clrBgAccentLoud) !important;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Cyptography Simulator</title>
+      <link rel="icon" href="..\media\images\icons\tabIcon.png">
+      <!-- Required meta tags -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!-- Normalise CSS -->
+      <link rel="stylesheet" href="normalize.css">
+      <!-- CSS -->
+      <link rel="stylesheet" href="..\css\style.css">
+      <link rel="stylesheet" href="..\css\cpfcalculator.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <!--Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <!--lottie-->
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <!-- fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+      <!-- font-family: 'Playball', cursive; -->
+      <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+      <!-- font-family: 'Heebo', sans-serif; -->
+      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+      <!-- font-family: 'Fira Sans', sans-serif; -->
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+      <!-- font-family: 'Roboto Mono', monospace; -->
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+      <!-- font-family: 'Merriweather', serif; -->
+      <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+      <!-- font-family: 'Patua One', cursive; -->
+      <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+      <!-- font-family: 'Varela Round', sans-serif; -->
+  </head>
+  <body>
+
+
+    <main id="cpfcalculator">
+        <button  onclick="location.href='home.html'"  class="mt-5 ml-5 btn jumpButton" style="background-color:var(--clrStrong)"><b>← &ensp; Back to Home</b></button>
+        <section class="justify-content-center mx-auto col-md-7 col-11">
+
+  
+            <h1 class=" text-center my-5 headText">CPF Calculator</h1>
+            <p class="mb-4" style="font-size:smaller"></p>
+            <div class="col-12">
+
+                <section class="inputs p-0 d-flex justify-content-around flex-wrap col-12">
+                    <div class=" col-md-5 col-12">
+                        <div class="input-group mr-3 my-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="initamt">$</span>
+                            </div>
+                            <input type="number" class="form-control" id="initialamount" placeholder="Initial Amount" aria-label="Username" aria-describedby="initamt">
+                          </div>
+                    </div>
+
+                    <div class=" col-md-5 col-12">
+                        <div class="input-group mr-3 my-3">
+                            <input type="number" id="annualreturn" class="form-control" placeholder="Annual Return" aria-label="Annual" aria-describedby="annret">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="annret">%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-5 col-12">
+                        <div class="input-group mr-3 my-3">
+                            <input type="number" id="duration" class="form-control" placeholder="Duration" aria-label="Username" aria-describedby="dur">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="dur">year(s)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-5 col-12">
+                        <div class="input-group mr-3 my-3">
+                            <div class="input-group-prepend">
+                                <button class="btn button btn-outline-secondary" style="border: 1px solid #ced4da !important;" id="amountToggle" type="button">Toggle +/-</button>
+                                <span class="input-group-text" id="toggleText">$</span>
+                            </div>
+                            <input type="number" id="cashflow" class="form-control" placeholder="Cashflow" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                    </div>
+
+
+                    <div class="col-12 mt-4 d-flex justify-content-center dropdown">
+                        <button style="word-wrap: break-word;white-space: normal;" class="btn w-75 btn-lg dropdown-toggle" id="iteratedropdown" type="button" id="dropdownText" data-toggle="dropdown">
+                          Compound & Apply Cashflow
+                        </button>
+                        <div class="dropdown-menu">
+                          <button class="dropdown-item" onclick="frequencyChange(this)">Annually | Once a year</button>
+                          <button class="dropdown-item" onclick="frequencyChange(this)">Quarterly | 4 times a year</button>
+                          <button class="dropdown-item" onclick="frequencyChange(this)">Weekly | 52 times a year</button>
+                          <button class="dropdown-item" onclick="frequencyChange(this)">Daily | 365 times a year</button>
+                        </div>
+                      </div>
+                </section>
+
+                <section class="output p-0 d-none mt-5 justify-content-around flex-wrap col-12">
+                   <div class="col-12 d-flex flex-wrap justify-content-center">
+                       <div class="col-9 d-flex justify-content-center pb-2 pt-3" style="color: var(--clrStrong);background-color: var(--clrBgAccentLoud);border-radius: 10px;">
+                            <div class="col-12">
+                                <span style="position:relative;top:20px;line-height:50%;word-wrap: break-word; font-size:larger;color: var(--clrBgAccent);">$</span>
+                                <b><span class="ml-4 text-center" style="word-wrap: break-word;font-size:40px;color:var(--clrStrongFocus)" id="bigTotal">000.00</span></b>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 mt-5">
+                            <div class="w3-round-xlarge" style="background-color:var(--clrStrongFocus)">
+                                <div class="w3-container w3-round-xlarge" id="progressProf" style="height:20px;background-color:var(--clrBgAccentLoud)"></div>
+                              </div>
+                        </div>
+
+                        <div class="col-12 bolded d-flex flex-wrap">
+                            
+                            <div class="d-flex  mt-5 flex-md-nowrap flex-wrap justify-content-between col-12" style="color: var(--clrBgAccentLoud);">
+                                <p class="d-md-inline d-block">Contribution</p>
+                                <p id='contributionAmt' class="d-md-inline d-block">$000.00</p>
+                            </div>
+
+                            <div class="d-flex mt-3 flex-md-nowrap flex-wrap justify-content-between col-12" style="color: var(--clrStrongFocus);">
+                                <p class="d-md-inline d-block">Profit</p>
+                                <p id='profitAmt' class="d-md-inline d-block">$000.00</p>
+                            </div>                           
+                        </div>
+
+                        </div>
+                       <div class="col-12 mt-3" id="chart">
+                            <div id="chart_div"></div>
+                       </div>
+                   </div>
+                </section>
+                
+            </div>
+        </section>
+    </main>
+
+
+    <div id="snackbar"></div>
+     <!-- lottie & bodymovin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin.js"></script>
+    <!-- Google Charts -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- jQuery -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Javascript-->
+   <!-- Javascript-->
+    <script src="..\js\script.js"></script>
+    <script src="..\js\cpfcalculator.js"></script>
+
+    
+</body>
+</html>
