@@ -54,22 +54,26 @@
                             <div class="input-group-prepend">
                               <span class="input-group-text" id="initamt">$</span>
                             </div>
-                            <input type="number" class="form-control" id="initialamount" placeholder="Initial Amount" aria-label="Username" aria-describedby="initamt">
+                            <input type="number" class="form-control oneinput" id="initialamount" placeholder="Initial Amount" aria-label="Username" aria-describedby="initamt">
                           </div>
                     </div>
 
                     <div class=" col-md-5 col-12">
-                        <div class="input-group mr-3 my-3">
-                            <input type="number" id="annualreturn" class="form-control" placeholder="Annual Return" aria-label="Annual" aria-describedby="annret">
-                            <div class="input-group-append">
-                                <span class="input-group-text" id="annret">%</span>
-                            </div>
+                        <div class="input-group d-flex justify-content-around mr-3 my-3">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">2.0%</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input radio" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">4.5%</label>
+                              </div>
                         </div>
                     </div>
 
                     <div class=" col-md-5 col-12">
                         <div class="input-group mr-3 my-3">
-                            <input type="number" id="duration" class="form-control" placeholder="Duration" aria-label="Username" aria-describedby="dur">
+                            <input type="number" id="duration" class="form-control oneinput" placeholder="Duration" aria-label="Username" aria-describedby="dur">
                             <div class="input-group-append">
                                 <span class="input-group-text" id="dur">year(s)</span>
                             </div>
@@ -82,7 +86,7 @@
                                 <button class="btn button btn-outline-secondary" style="border: 1px solid #ced4da !important;" id="amountToggle" type="button">Toggle +/-</button>
                                 <span class="input-group-text" id="toggleText">$</span>
                             </div>
-                            <input type="number" id="cashflow" class="form-control" placeholder="Cashflow" aria-label="Username" aria-describedby="basic-addon1">
+                            <input type="number" id="cashflow" class="form-control oneinput" placeholder="Deposit" aria-label="Username" aria-describedby="basic-addon1">
                           </div>
                     </div>
 

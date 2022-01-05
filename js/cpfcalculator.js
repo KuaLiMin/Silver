@@ -2,9 +2,11 @@
 $('body').on('click', '#amountToggle', function() {
     if($("#toggleText").text() == "$"){
         $("#toggleText").text("-$")
+        $("#cashflow").attr("placeholder", "Withdrawl");
     }
     else{
         $("#toggleText").text("$")
+        $("#cashflow").attr("placeholder", "Deposit");
     }
 })
 
@@ -21,12 +23,17 @@ function frequencyChange(e){
     });
     if (isValid){
       var isValid = true;
-      $(".col-md-5>input").each(function() {
+      $(".col-md-5>.oneinput").each(function() {
         var element = $(this);
         if (parseFloat(element.val()) >= 0) {
             isValid = false;
         }
       });
+
+      //check if radio buttons is valid
+      if(!$(".radio").is(":checked")){
+        isValid = false
+      }
 
       if (isValid){
         $("#iteratedropdown").text("Compound & Apply Cashflow" + ' ' + (e.attributes)[0]["ownerElement"]["innerHTML"])
