@@ -617,7 +617,7 @@ function tutorialArticles(){
     "art7": ["What Is Cryptocurrency?", `<!-- Image for the Web Page-->
     <img class="col-12" src="https://i.ibb.co/smYS4jY/What-is-cryptocurrency.jpg"/>
 
-    <p>Wrriten By: <a href = "Kate Ashford, John Schmidt"><u>https://www.forbes.com/advisor/investing/what-is-cryptocurrency/</u></a></p>
+    <p>Wrriten By: <a href = "https://www.forbes.com/advisor/investing/what-is-cryptocurrency/"><u>Kate Ashford, John Schmidt</u></a></p>
          
          <p>Updated On: 03 Jan 2022</p>
          
@@ -687,7 +687,7 @@ To prevent fraud, each transaction is checked using one of two main validation t
          <iframe width="560" height="315" src="https://www.youtube.com/embed/OYvrbROVElQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`],
     "art8": ["How To Buy Bitcoin and Other Cryptocurrencies in Singapore: A Beginner’s Guide", `<!-- Image for the Web Page-->
     <img class="col-12" src="https://i.ibb.co/6ZBrgjh/how-to-buy-crypto.jpg"/>
-    <p>Wrriten By: <a href = "Joel Koh"><u>https://blog.seedly.sg/how-to-buy-bitcoins-singapore</u></a></p>
+    <p>Wrriten By: <a href = "https://blog.seedly.sg/how-to-buy-bitcoins-singapore"><u>Joel Koh</u></a></p>
          
          <p>Written On: 25 Aug 2021</p>
          
@@ -717,12 +717,11 @@ To prevent fraud, each transaction is checked using one of two main validation t
              <p>
                  But here are some basic things you need to know. First, you need to know that Bitcoin is numero uno when it comes to cryptocurrencies. Bitcoin was the first cryptocurrency to be created and is the longest surviving one thus far. Its longevity and popularity add to its security due to the nature of how blockchain works. I may be simplifying things a bit but in general, the more blocks a cryptocurrency has, the more secure its network. This also adds to its trustworthiness. As such, Bitcoin is in a category of its own as all other cryptocurrencies that are not Bitcoin are classified as altcoins (short for alternatives to Bitcoin).
              </p>
-	<img class="col-12" src=""/>
               <p>
                  Whereas for altcoins, the most popular one is Ethereum: a blockchain platform that allows users to build decentralized applications (dApps) and smart contracts on top of it. I am just barely scratching the surface as there is so much more to learn. As such, you need to really do your due diligence and fully understand the risks of investing in cryptocurrencies first before diving into it.
              </p>
               <p>
-	After all, your investment portfolio should be a reflection of your well-researched convictions and the amount of risk that you are willing to take. The worse thing you can do is to blindly copy someone else’s portfolio and end up losing money without even knowing why. A good place to start would be to develop an appreciation of the underlying technological innovation behind cryptocurrencies and a good understanding of the long-term risk and reward ratio of this asset class.
+	            After all, your investment portfolio should be a reflection of your well-researched convictions and the amount of risk that you are willing to take. The worse thing you can do is to blindly copy someone else’s portfolio and end up losing money without even knowing why. A good place to start would be to develop an appreciation of the underlying technological innovation behind cryptocurrencies and a good understanding of the long-term risk and reward ratio of this asset class.
              </p>
          </div>
          <!-- Second section -->
@@ -731,7 +730,7 @@ To prevent fraud, each transaction is checked using one of two main validation t
                  What Do You Need to Start Buying Cryptocurrency?
              </h3>
              <p>
-      	At the very least, there are a few things that you need to start investing in cryptocurrency:
+      	        At the very least, there are a few things that you need to start investing in cryptocurrency:
 
              <ul>
              <li>Personal identification documents for verification (some exchanges like Coinhako use Singpass MyInfo)</li>
@@ -742,53 +741,53 @@ To prevent fraud, each transaction is checked using one of two main validation t
              <li>Valid methods to deposit or withdraw fiat money from the exchanges (bank accounts, debit cards, credit cards, etc.</li>    
              <li>Secured personal cryptocurrency wallet to store your crypto (this is optional but recommended)</li>    
              </ul>
-	Speaking of cryptocurrency wallets there are two main types of crypto wallets you need to know.
+	            Speaking of cryptocurrency wallets there are two main types of crypto wallets you need to know.
              </p>
              <h4>
-	Hot Wallets
+	            Hot Wallets
              </h4>
              <p>
-	First, we have Hot Wallets: cryptocurrency wallets operated from devices that connect to the internet. Although Bitcoin itself is almost impossible to hack, hackers can still steal the private key to your hot wallet and steal the coins stored on your crypto wallet that is connected to the internet. But, what you give up in security you gain in convenience as you can trade your cryptocurrencies easily.
+	            First, we have Hot Wallets: cryptocurrency wallets operated from devices that connect to the internet. Although Bitcoin itself is almost impossible to hack, hackers can still steal the private key to your hot wallet and steal the coins stored on your crypto wallet that is connected to the internet. But, what you give up in security you gain in convenience as you can trade your cryptocurrencies easily.
              </p>
              <p>
-	An example of a hot wallet is the exchange wallet that is given to you when you open your cryptocurrency exchange account. This is basically a custodian account for your cryptocurrency where the exchange holds the private keys to your coins. Be careful about this as if in the event that the exchange is hacked, you might lose your cryptocurrency. This is why in the cryptocurrency world, the phrase ‘not your key not your coin’ is wisdom many adhere to. As without the private keys, you technically do not own the bitcoin.
+	            An example of a hot wallet is the exchange wallet that is given to you when you open your cryptocurrency exchange account. This is basically a custodian account for your cryptocurrency where the exchange holds the private keys to your coins. Be careful about this as if in the event that the exchange is hacked, you might lose your cryptocurrency. This is why in the cryptocurrency world, the phrase ‘not your key not your coin’ is wisdom many adhere to. As without the private keys, you technically do not own the bitcoin.
              </p>
              <h4>
-	Cold Wallets
+	            Cold Wallets
              </h4>
              <p>
-	Alternatively, you can store your cryptocurrencies in a cold wallet. Put simply, the cold wallet/offline wallet/hardware wallet is a cryptocurrency wallet that stores your cryptocurrency offline. These cold wallets store your private key on hardware that is offline. Some even come with compatible software that allows you to view your crypto portfolio without exposing your private key.
+	            Alternatively, you can store your cryptocurrencies in a cold wallet. Put simply, the cold wallet/offline wallet/hardware wallet is a cryptocurrency wallet that stores your cryptocurrency offline. These cold wallets store your private key on hardware that is offline. Some even come with compatible software that allows you to view your crypto portfolio without exposing your private key.
              </p>
              <p>
-	There are two main types of hardware wallets that come with their advantages and disadvantages. You have your paper wallet which can be created and printed out from some websites.
+	            There are two main types of hardware wallets that come with their advantages and disadvantages. You have your paper wallet which can be created and printed out from some websites.
              </p>
              <p>
-	During the creation of the paper wallet, you have both public keys and private keys that are printed out. Some people keep their private keys in a highly secured place and only import the private key into the wallet only at the moment of making a transaction. This method is more secure, but the downside is that it is very inconvenient to trade your cryptocurrency with this paper wallet.
+	            During the creation of the paper wallet, you have both public keys and private keys that are printed out. Some people keep their private keys in a highly secured place and only import the private key into the wallet only at the moment of making a transaction. This method is more secure, but the downside is that it is very inconvenient to trade your cryptocurrency with this paper wallet.
              </p>
          </div>
          <!- Third Section->
          <div>
              <h3>
-	Cryptocurrency ATMs in Singapore (Bitcoin ATMs in Singapore)
+	            Cryptocurrency ATMs in Singapore (Bitcoin ATMs in Singapore)
              </h3>
              <p>
-	You can head to the cryptocurrency ATMs around Singapore to buy and sell cryptocurrencies directly and instantly with cash. The buying process is as such: you deposit fiat currency (e.g. SGD) and withdraw cryptocurrency to your secure digital wallet. Whereas the selling process is reversed.
+	            You can head to the cryptocurrency ATMs around Singapore to buy and sell cryptocurrencies directly and instantly with cash. The buying process is as such: you deposit fiat currency (e.g. SGD) and withdraw cryptocurrency to your secure digital wallet. Whereas the selling process is reversed.
              </p>
              <p>
-	This transaction method is convenient as you can skip any sign-ups or variation processes. You only need a safe and secure digital wallet to withdraw the cryptocurrency to. However, convenience does not come cheap as according to Coin ATM Radar, these ATMs charge between a whopping 4.1% – 6.9% for cryptocurrency transactions and have minimum transaction fees that start from $10.
+	            This transaction method is convenient as you can skip any sign-ups or variation processes. You only need a safe and secure digital wallet to withdraw the cryptocurrency to. However, convenience does not come cheap as according to Coin ATM Radar, these ATMs charge between a whopping 4.1% – 6.9% for cryptocurrency transactions and have minimum transaction fees that start from $10.
              </p>
              <p>
-	These fees are generally higher than buying cryptocurrencies on crypto exchanges like Coinbase. Thus, if possible, you should sign up for a cryptocurrency exchange account to avoid these high fees.
+	            These fees are generally higher than buying cryptocurrencies on crypto exchanges like Coinbase. Thus, if possible, you should sign up for a cryptocurrency exchange account to avoid these high fees.
              </p>
          <!- Fourth Section->
              <h3>
-	Crypto ATMs Location
+	            Crypto ATMs Location
              </3>
              <p>
-	According to Coin ATM Radar, Singapore currently has 10 different automated teller machines (ATM) and one teller where you trade cryptocurrencies in Singapore.
+	            According to Coin ATM Radar, Singapore currently has 10 different automated teller machines (ATM) and one teller where you trade cryptocurrencies in Singapore.
              </p>
              <p>
-	Here is the full list:
+	            Here is the full list:
              </p>
              <img class="col-12" src="https://i.ibb.co/HByvLr2/how-to-buy-crypto-crypto-atm-loc.jpg"/>
          </div>`],
