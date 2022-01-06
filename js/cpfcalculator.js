@@ -63,7 +63,16 @@ function calculateSetValues(){
     cashflow = -cashflow
   }
 
-
+  function FV(rate, nper, pmt, pv, type) {
+    var pow = Math.pow(1 + rate, nper),
+       fv;
+    if (rate) {
+     fv = (pmt*(1+rate*type)*(1-pow)/rate)-pv*pow;
+    } else {
+     fv = -1 * (pv + pmt * nper);
+    }
+    return fv.toFixed(2);
+  }
 
 
 
