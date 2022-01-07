@@ -53,11 +53,11 @@ function frequencyChange(e){
 function calculateSetValues(){
 
   //get values
-  initialAmount = $("#initialamount").val()
-  annualReturn = $("input[type='radio'][name='inlineRadioOptions']:checked").val()
-  duration = $("#duration").val()
-  cashflow = $("#cashflow").val()
-  iterate = $("#iteratedropdown").val()
+  initialAmount = $("#initialamount").val()                                           //Starting amount
+  annualReturn = $("input[type='radio'][name='inlineRadioOptions']:checked").val()    //unknown
+  duration = $("#duration").val()                                                     //duration or time
+  cashflow = $("#cashflow").val()                                                     //unknown
+  iterate = $("#iteratedropdown").val()                                               //unknown
 
   if($("#toggleText").text() == "-$"){
     cashflow = -cashflow
@@ -70,14 +70,36 @@ function calculateSetValues(){
 
 
   //calculations (set variables below)
-  bigTotal = initialAmount * 5 //for example
+  //bigTotal = initialAmount * 5 //for example
+
+  //testing
+  // A = (p * Math.pow((1 + (r / (n * 100))), (n * t)));
+  // A is bigTotal
+  // p is inititalAmount
+  // r is interest rate
+  // n is 12
+  // t is duration
+
+bigTotal = (initialAmount*Math.pow(1+(annualReturn/(12 *100)))), (12*duration);
+/*
+  var compound = 1
+function CInterest(){
+  for(let i=0; i<duration*12;i++){
+    if(i%(12/period) === 0){
+      compound*=(1+((iterate/100)/duration))
+    }
+  }
+  bigTotal=initialAmount*compound
+}
+*/
 
 
 
 
-  bigTotal = "272727.27"
-  contribution = "1809.28"
-  profit = "452.32"
+  //bigTotal = bigTotal
+  contribution = ((duration*12)*cashflow)+initialAmount
+  profit = bigTotal-(initialAmount+((duration*12)*cashflow))
+
   contributionPortionSize = "60"
   var dataSet = [
         ['year', 'Contribution', 'Profit'],
