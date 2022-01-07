@@ -130,7 +130,7 @@ function tutorialArticles(){
         
        
      
-      "art1": ["What is Finance?", `<p>Details: By Daniel Kurt, Reviewed by Andy Smith </p> <img class="col-12" src="https://i.ibb.co/pRbCczq/finance-definitionjpeg.jpg" alt="finance-definitionjpeg" border="0""/>
+      "art1": ["What is Finance? / Finance", `<p>Details: By Daniel Kurt, Reviewed by Andy Smith </p> <img class="col-12" src="https://i.ibb.co/pRbCczq/finance-definitionjpeg.jpg" alt="finance-definitionjpeg" border="0""/>
       <!-- Another paragraph-->
       <p>Finance is a broad term that describes activities associated with banking, leverage or debt, credit, capital markets, money, and investments. Basically, finance represents money management and the process of acquiring needed funds. Finance also encompasses the oversight, creation, and study of money, banking, credit, investments, assets, and liabilities that make up financial systems.
   Many of the basic concepts in finance originate from microeconomic and macroeconomic theories. One of the most fundamental theories is the time value of money, which essentially states that a dollar today is worth more than a dollar in the future. 
@@ -166,7 +166,7 @@ function tutorialArticles(){
   <p>Financial activities are the initiatives and transactions that businesses, governments, and individuals undertake as they seek to further their economic goals. They are activities that involve the inflow or outflow of money. Examples include buying and selling products (or assets), issuing stocks, initiating loans, and maintaining accounts.
   When a company sells shares and makes debt repayments, these are both financial activities. Similarly, individuals and governments are involved in financial activities, such as taking out loans and levying taxes, which further specific monetary objectives.
   </p>`],
-  "art2": ["Singapore’s Economy", `<p>Details by:  <a href = "https://www.guidemesingapore.com/business-guides/incorporation/why-singapore/singapore-economy---a-brief-introduction" 
+  "art2": ["Singapore’s Economy / Finance", `<p>Details by:  <a href = "https://www.guidemesingapore.com/business-guides/incorporation/why-singapore/singapore-economy---a-brief-introduction" 
   target = "_blank"> <u> guidemesingapore.com </u> </a></p><p>A major financial hub in the Asia Pacific region, Singapore has long earned a reputation as one of the world’s most advanced economies. 
   In 2017, Singapore was ranked as the world’s second most open economy by the Heritage Foundation’s Index of Economic Freedom, as well as the world’s second most pro-business regime by the World Bank’s Doing Business report.
   Despite its small domestic market and a lack of natural resources, Singapore successfully weathered through the financial crisis of 1997 and 2008. Today, the Singapore economy is one of the most stable in the world, with no foreign debt, high government revenue and a consistently positive surplus.
@@ -218,7 +218,7 @@ function tutorialArticles(){
   </p>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/WSKLrGJyELE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   `],
-"art3": ["Investing for Retirement", `<img class="col-12" src="https://i.ibb.co/KWMkCQ2/elderly-woman-laptop.jpg"/>
+"art3": ["Investing for Retirement / Retirement Planning", `<img class="col-12" src="https://i.ibb.co/KWMkCQ2/elderly-woman-laptop.jpg"/>
     
 <!-- Credit to the Authors-->
 <p>Writen By: <a href = "https://www.moneysense.gov.sg/" target = "_blank"><u>Moneysense.gov.sg</u></a></p>
@@ -282,7 +282,7 @@ function tutorialArticles(){
           <u>Get started with investing</u></a></p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/FKrm2Laetvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>`],
-  "art4": ["How to Calculate the Percentage Gain or Loss on an Investment", `<p>Details: The Investopedia Team, Reviewed by, Somer Anderson
+  "art4": ["How to Calculate the Percentage Gain or Loss on an Investment / Investing", `<p>Details: The Investopedia Team, Reviewed by, Somer Anderson
         </p><img class="col-12" src=""https://ibb.co/gZNZwbv"><img class="col-12" src="https://i.ibb.co/b5T5LjH/2021-11-17.png" alt="2021-11-17" border="0"/>
 
         <!-- Another paragraph-->
@@ -361,7 +361,7 @@ function tutorialArticles(){
     </p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/XeYtgIOgm2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     `],
-    "art5": ["7 Personal Finance resolutions you’ll be able to keep — and how", `<!-- Image for the Web Page-->
+    "art5": ["7 Personal Finance resolutions you’ll be able to keep — and how / Personal Finance", `<!-- Image for the Web Page-->
   <img class="col-12" src="https://i.ibb.co/kSNVqrD/fhc-banner.jpg"/>
   
   <p>Wrriten By: <a href = "https://www.moneysense.gov.sg"><u>Moneysense.gov.sg</u></a></p>
@@ -560,7 +560,7 @@ function tutorialArticles(){
               
        </div>
        `],
-    "art6": ["Is investment safe?", `<!-- Image for the Web Page-->
+    "art6": ["Is investment safe? / Investing", `<!-- Image for the Web Page-->
     <img class="col-12" src="https://i.ibb.co/wL76GSt/8-Investment-Myths-To-Be-Avoided.jpg"/>
     <div>
     <p>Image from: <a href = "https://www.holisticinvestment.in/investment-myths/">Holistic Investment Planners</a>
@@ -614,7 +614,7 @@ function tutorialArticles(){
          </div>
          <iframe width="560" height="315" src="https://www.youtube.com/embed/mLhjgysPnJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          `],
-    "art7": ["What Is Cryptocurrency?", `<!-- Image for the Web Page-->
+    "art7": ["What Is Cryptocurrency? / Cryptocurrency", `<!-- Image for the Web Page-->
     <img class="col-12" src="https://i.ibb.co/smYS4jY/What-is-cryptocurrency.jpg"/>
 
     <p>Wrriten By: <a href = "https://www.forbes.com/advisor/investing/what-is-cryptocurrency/"><u>Kate Ashford, John Schmidt</u></a></p>
@@ -685,7 +685,7 @@ To prevent fraud, each transaction is checked using one of two main validation t
              </p>
          </div>	
          <iframe width="560" height="315" src="https://www.youtube.com/embed/OYvrbROVElQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`],
-    "art8": ["How To Buy Bitcoin and Other Cryptocurrencies in Singapore: A Beginner’s Guide", `<!-- Image for the Web Page-->
+    "art8": ["How To Buy Bitcoin and Other Cryptocurrencies in Singapore: A Beginner’s Guide / Cryptocurrency", `<!-- Image for the Web Page-->
     <img class="col-12" src="https://i.ibb.co/6ZBrgjh/how-to-buy-crypto.jpg"/>
     <p>Wrriten By: <a href = "https://blog.seedly.sg/how-to-buy-bitcoins-singapore"><u>Joel Koh</u></a></p>
          
@@ -782,7 +782,7 @@ To prevent fraud, each transaction is checked using one of two main validation t
          <!- Fourth Section->
              <h3>
 	            Crypto ATMs Location
-             </3>
+             </h3>
              <p>
 	            According to Coin ATM Radar, Singapore currently has 10 different automated teller machines (ATM) and one teller where you trade cryptocurrencies in Singapore.
              </p>
@@ -791,14 +791,334 @@ To prevent fraud, each transaction is checked using one of two main validation t
              </p>
              <img class="col-12" src="https://i.ibb.co/HByvLr2/how-to-buy-crypto-crypto-atm-loc.jpg"/>
          </div>`],
-    "art9": ["What Is Inflation & Why You Should Care", ``],
-    "art10": ["How To Tell If You're Buying Smart", ``],
-    "art11": ["What is the best thing I can do befor a GST hike?", ``],
+    "art9": ["How to open a CDP and Brokerage Account In Singapore / Investing", `
+    <article class = "ínvesting">
+        <!-- Heading 1 -->
+            <img class = "col-12" src = "https://cdn-blog.seedly.sg/wp-content/uploads/2021/01/22112349/Opening-a-CDP-Brokerage-Account-Singapore-1.png" height = "500px" width = "970px">
+            
+            <h1>Step-By-Step Guide: Opening A CDP And Stock Trading / Brokerage Account In Singapore</h1>
+            
+            <p>Written By: <a href = "https://blog.seedly.sg/author/mingfeng" target="_blank"><u>Ming Feng</u></a></p>
+            
+        <p>Wriiten On: 22 May 2021 </p>
+            
+            <h2>What Is A Brokerage Account And How Does It Work?</h2>
+            
+            <p>Before investing in your first stock, one will need to open a brokerage account.</p>
+            
+            <p>A brokerage account is a type of account that allows you to buy and sell your investment products, 
+                mainly <a href = "https://blog.seedly.sg/what-is-stock/" target = "_blank"><u>stocks</u></a>, 
+                <a href = "https://blog.seedly.sg/what-is-etf/" target = "_blank"><u>exchange-traded funds (ETFs)</u></a>, <a href = "https://blog.seedly.sg/what-is-a-reit/" target = "_blank"><u>real estate investment trusts (REITs)</u></a>, 
+                and certain <a href = "https://blog.seedly.sg/what-is-bond" target = "_blank"><u>bonds</u></a>.</p>
+            
+            <p>Brokerage accounts act as a middle platform that allows you to invest through it.</p>
+    
+            <p>In Singapore, one will need a <a href = "https://blog.seedly.sg/what-is-cdp-account/" target = "_blank"><u>CDP account</u></a> and a brokerage account to invest.</p>
+            
+            <p>As such, here is a step-by-step guide to opening your CDP account.</p>
+    
+            <!-- Heading 2 -->
+            <h2>Steps to Open a Brokerage Account in Singapore</h2>
+            
+            <!-- Image-->
+            <img class = "col-12" src="https://cdn-blog.seedly.sg/wp-content/uploads/2019/11/10100138/opening-a-CDP-Account.png" height = 300px width = 600px>
+            
+            <p><b>Here is a video on how to set up your accounts with Clara and Joel from the Seedly Team!</b></p>
+    
+            <!-- Video -->
+            <iframe class = "col-12" width="560" height="315" src="https://www.youtube.com/embed/YHeuOsQHD1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <!-- Heading 3 -->
+            <h2>Open A Central Depository Account (CDP) Direct Securities Account</h2>
+    
+            <p>Here are the basics of what you need to know about how to open a CDP account.</p>
+            
+            <!-- Image -->
+            <img class = "col-12" src = "https://cdn-blog.seedly.sg/wp-content/uploads/2018/01/30021313/safe-box.png">
+    
+            <!-- Heading 4 -->
+            <h3>1. Have a Bank Account With a Local Bank</h3>
+    
+            <p>To open an individual CDP Securities Account, one is required to have a bank account with one of the following banks in Singapore:</p>
+    
+            <!-- Unordered List -->
+            <ul>
+                <li>Citibank</li>
+                <li>DBS/POSB</li>
+                <li>HSBC</li>
+                <li>Maybank</li>
+                <li>OCBC</li>
+                <li>Standard Chartered Bank</li>
+                <li>UOB</li>
+            </ul>
+    
+            <p>Do also note that one needs to be at least <b>18 years old</b> and <b>not an undischarged bankrupt</b> before he goes on to the next step.</p>
+    
+            <!-- Heading 5 -->
+            <h3>2. Fill Up An Application Form</h3>
+    
+            <p>There is a faster method to open your CDP account.</p>
+            <p>Since November 2019, you can choose to open a CDP account online and get your account sorted out within 15 minutes.</p>
+            <img class = "col-12" src = "https://cdn-blog.seedly.sg/wp-content/uploads/2018/11/22111240/SGX-CDP-online-opening-.png" height = 300px width = 600px>
+            <p>To apply for your CDP account online, you can click <a href = "https://investors.sgx.com/cdp-account-opening/#/form-selection" target = "_blank"><u>here</u></a>.</p>
+            <p>For investors who already have a bank account with the list of banks stated, simply fill up this online <a href = "https://investors.sgx.com/cdp-account-opening/#/online-form-intro" target = "_blank"><u>application form</u></a>.</p>
+            <p>Everything is really convenient now, where one can simply open a CDP account online using MyInfo or an online form.</p>
+    
+            <!-- Heading 6 -->
+            <h3>3. Ensure You Have The Supporting Documents Required</h3>
+    
+            <p>Before you dive in and start filling up all the information in the application form, ensure that you have these supporting documents with you:</p>
+            <ul>
+                <li>Your NRIC/ Singapore Armed Forced Identity Card/ Singapore Police Force Identity Card/ Malaysia Identification Card/ Passport</li>
+                <li>
+                    One of the following documents or e-statements (dated within the last 3 months):
+                    <ol>
+                        <li>Bank statement from any Monetary Authority of Singapore (MAS) licensed banks; or</li>
+                        <li>Central Provident Fund (CPF) statement; or</li>
+                        <li>Latest Notice of Assessment for Income tax</li>
+                    </ol>
+    
+                </li>
+                <li>A Singapore Bank Account</li>
+                <li>Photographed/ Scanned copy of your signature</li>
+                <li>Tax Identification Number (TIN) for tax residency status outside Singapore</li>
+                <li>Tax Identification Number (TIN)</li>
+                <li>Completed Form-W9</li>
+            </ul>
+            <p>For application through a broker, the supporting documents needed are:</p>
+            <ul>
+                <li>Photocopy of NRIC/ Singapore Armed Forced Identity Card/ Singapore Police Force Identity Card/ Malaysia Identification Card/ Passport</li>
+            </ul>
+    
+            <!-- Heading 7-->
+            <h3>Application through Mail</h3>
+            <p>If you prefer to apply for your CDP account by mail, here’s where you can mail the application form to.</p>
+            <p>Mail the signed application form and supporting documents to:</p>
+            <p><b>The Central Depository (Pte) Limited</b></p>
+            <p><b>11 North Buona Vista Drive</b></p>
+            <p><b>#06-07</b></p>
+            <p><b>The Metropolis Tower 2</b></p>
+            <p><b>Singapore 138589</b></p>
+    
+            <!-- Heading 8-->
+            <h3>Application through a brokerage firm</h3>
+            <p>Most of the brokerage firms in Singapore should be able to help their customers with their CDP account applications when they set up a brokerage account.</p>
+            <p>Below are the lists of retail brokers that can help you do so:</p>
+            <ul>
+                <li>CIMB Securities</li>
+                <li>DBS Vickers Securities</li>
+                <li>iFAST Singapore</li>
+                <li>KGI Securities</li>
+                <li>Lim & Tan Securities</li>
+                <li>Maybank Kim Eng</li>
+                <li>OCBC Securities</li>
+                <li>POEMS by PhillipCapital</li>
+                <li>RHB Securities Singapore</li>
+                <li>UOB Kay Hian</li>
+            </ul>
+            <p>Once you have opened your CDP account, you can log in to the <a href = "https://blog.seedly.sg/sgx-investor-portal-guide/" target = "_blank">SGX Investor Portal</a> via SingPass to view your stock portfolio and account statements. </p>
+    
+            <!-- Heading 9 -->
+            <h2>Brokerage/ Stock trading Account: Factors To Consider</h2>
+    
+            <p></p>
+    
+            <ol>
+                <li>Market access: <br> For an investor looking to invest in foreign exchanges, market access to the rest of the exchanges will be a key factor of consideration.</li> <br>
+                <li><a href = "https://blog.seedly.sg/the-ultimate-cheatsheet-cheapest-stock-brokerage-in-singapore/" target = "_blank"><u>Trading / Commission Fee</u></a></li>
+            </ol>
+    
+            <p>Copyright &copy; 2021, Seedly.sg</p>
+        </article>`],
+    "art10": ["Cryptocurrencies for Singaporeans / Cryptocurrency", `<article class = "cryptocurrency">
+    <p><b><u>Cryptocurrencies</u></b></p>
+
+    <!-- Heading 1 -->
+    <h1>How to invest in cryptocurrencies in Singapore?</h1>
+
+    <img class = "col-12", src = "https://endowus.com/insights/content/images/2021/08/Crypto-Singapore-2.jpg" height = 315px width = 760px>
+
+<p>Written On: 13 Aug 2021</p>
+    
+    <h2>Cryptocurrency exchange platforms</h2>
+    
+    <p>
+        If you are unfettered by the issues above and are wondering where you can get started, you can buy and trade cryptocurrencies through crypto exchanges, 
+        such as <a href = "https://ftx.com/en" target = "_blank">FTX</a>, <a href = "https://www.kucoin.com/" target = "_blank"><u>Kucoin</u></a>, 
+        <a href = "https://www.gemini.com/apac/singapore" target = "_blank"><u>Gemini</u></a>, 
+        <a href = "https://www.coinbase.com/" target = "_blank"><u>Coinbase</u></a>, 
+        and <a href = "https://crypto.com/sg/" target = "_blank"><u>Crypto.com</u></a>. When choosing your crypto exchange, consider the following factors:
+    </p>
+    <ul>
+        <li>Trading fees</li>
+        <li>Types of coins offered by the exchange</li>
+        <li>Ease of depositing, withdrawing and exchanging between cryptocurrency and Singapore dollar</li>
+    </ul>
+    <p>Some of these platforms like Coinbase also offer lending and staking options. 
+        However, there are platforms like <a href = "https://www.hodlnaut.com/" target = "_blank"><u>Hodlnaut</u></a>, 
+        <a href = "https://celsius.network/" target = "_blank"><u>Celsius</u></a> and <a href = "https://blockfi.com/" target = "_blank"><u>BlockFi</u></a> that specialise in providing cryptocurrency interest accounts.</p>
+    <p><b>Update</b>: As of 12 November 2021, <a href = "https://www.straitstimes.com/business/companies-markets/binancecom-users-in-singapore-given-one-month-to-withdraw-assets-redeem" target = "_blank"><u>Singaporeans are no longer able to purchase or trade crypto on Binance.com</u></a> due to MAS regulations. 
+        <a href = "https://fortune.com/2021/11/10/huobi-singapore-ban-shut-down-china-crypto-exchange/" target = "_blank"><u>Huobi will also be ceasing operations in Singapore</u></a>, and will be closing all Singaporean accounts by 31 March 2022. 
+        Singapore-based users are strongly encouraged to withdraw all their assets from Huobi before then.</p>
+    <p>Given that these platform closures can occur at any time, it is crucial for Singapore-based investors to keep abreast of news on platform regulation changes.</p>
+    
+    <h2>Regulations: Is Cryptocurrency legal in Singapore?</h2>
+    <p>
+        In 2019, the Monetary Authority of Singapore (MAS) launched the <a href = "https://www.mas.gov.sg/regulation/acts/payment-services-act" target="_blank"><u>Payment Services Act</u></a>, which regulates cryptocurrency, 
+        or digital payment tokens (DPT) service providers for money-laundering and terrorism financing risks. 
+        More recently in Jan 2021, MAS announced the <a href = "https://sso.agc.gov.sg/Bills-Supp/41-2020/Published/20201102?DocDate=20201102" target="_blank"><u>Payment Services (Amendment) Bill</u></a>, 
+        which requires any entity that facilitates the transmission, exchange or custody of cryptocurrencies to be licensed 
+        and comply with a wider set of rules and regulations. One such consequence of the Payment Services Act is that 
+        crypto exchanges now have to impose a stock limit of $5,000 for individual accounts.
+    </p>
+    <p><strong>As a crypto investor in Singapore, note that the crypto landscape is largely unregulated for retail investors. 
+        This means you will be offered little protection or recourse 
+        if you fall prey to a crypto-related scam or from callous crypto investments, 
+        so practice caution and prudence when investing in cryptocurrencies</strong>.</p>
+    
+    <h2>Should you invest in cryptocurrency?</h2>
+
+    <p>There is no doubt that cryptocurrencies are gaining in popularity among retail investors and institutions. 
+        For example,<a href = "https://www.paypal.com/us/smarthelp/article/cryptocurrency-on-paypal-faq-faq4398" target = "_blank"><u>PayPal users</u></a> in the US can now buy, sell, hold, and spend cryptocurrencies, 
+        <a href = "https://www.coindesk.com/jpmorgan-to-let-clients-invest-in-bitcoin-fund-for-first-time-sources/" target = "_blank"><u>JPMorgan's bitcoin fund</u></a> for its clients is slated to roll out as early as this summer, 
+        and household names like DBS launched Asia's first direct crypto offering for private banking clients in May 2021, 
+        and announced that it would be providing an ecosystem for fundraising through asset tokenisation and 
+        secondary trading of digital assets including cryptocurrencies.</p>
+    <p>While the future of cryptocurrency seems promising, here are some issues you should consider before making your first crypto purchase.</p>
+    
+    <h3>Three key issues with cryptocurrencies</h3>
+
+    <h4>An asset, currency, security… or something else altogether?</h4>
+    <p>Crypto is the first non-correlated asset class since equities in the 1600s, shared Catherine Wood, 
+        founder and CEO of ARK Investment Management. There has been much debate surrounding the classification of cryptocurrencies, 
+        and consequently the regulations surrounding crypto. While there has been a smattering of regulations for cryptocurrencies, 
+        a clearer outlook for crypto will be paved when clearer guidelines have been defined globally.</p>
+    <h4>High volatility</h4>
+    <p>Crypto has seen vast swings in prices over the years, more recently from heightened regulatory pressures or a tweet from Elon Musk. 
+        <a href="https://www.cnbc.com/2021/05/19/bitcoin-btc-price-plunges-but-bottom-could-be-near-.html"target="_blank"><u>Bitcoin suffered a 30% drop from its record high</u></a> in mid-April this year, 
+        and crypto trading volume fell 43% in June following <a href="https://www.bbc.com/news/business-57549543"target="_blank"><u>China's crackdown on the sector</u></a>. 
+        If you are thinking of buying crypto, its high volatility is definitely something to consider before allocating your funds.</p>
+    <h4>Negative environmental impact</h4>
+    <p>The energy consumption of cryptocurrency mining has been cause for concern among environmentalists. 
+        As the price goes up, the algorithms to create new blocks on proof-of-work blockchains like Bitcoin become increasingly difficult,
+        leading to greater energy consumption. While some purport that close to three quarters of 
+        Bitcoin's energy needs come from renewable sources, these figures have been highly contested.</p>
+    
+    <h3>Three things to consider before investing in cryptocurrencies</h3>
+    <p>As a digital wealth advisor committed to making it easier for you to build long-term wealth, 
+        consider these three things when deciding if you should invest in cryptocurrencies.</p>
+    <h4>Risk appetite</h4>
+    <p>Cryptocurrencies are high-risk investments, so it is important to assess your risk appetite. 
+        If you are generally risk-averse, crypto might not be for you. If you would still like to dabble in cryptocurrency, 
+        consider waiting for cryptocurrency ETFs managed by global fund managers to become available in the Singapore market.</p>
+    <h4>Financial goals</h4>
+    <p>Consider your financial goals, such as setting up an emergency fund, saving up for a family, or building your retirement nest egg. 
+        If you require short-term liquidity or are cash-tight, remain focused on achieving your financial goals first 
+        before making allocations to crypto.</p>
+    <H4>Investment horizon and strategy for cryptocurrencies</H4>
+    <p>If you have spare cash after taking the above financial goals into consideration and would like to start investing in crypto, decide your investment horizon and strategy for cryptocurrencies, such as buying and holding on to cryptocurrencies for the long-term or trade crypto aggressively in the short term.</p>
+    
+    <h3>Still not sure of how to invest in cryptocurrency? Watch this video:</h3>
+
+    <iframe class = "col-12" width="560" height="315" src="https://www.youtube.com/embed/hc1xFaQhvOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p>Copyright &copy; 2021, Endowus.com</p>
+</article>`],
+    "art11": ["How to spot Crypto scams / Cryptocurrency", `<article class = "cryptocurrency">
+    <h1>5 Common Cryptocurrency Scams to Avoid</h1>
+
+<p>Written By: <a href = "https://blog.seedly.sg/author/joel-koh" target="_blank"><u>Joel Ong</u></a></p>
+    <p>Written on: 01 June 2021</p>
+    
+<p>As the cryptocurrency industry is still in its infancy and quite complex, investing in cryptocurrency has become a hunting ground for scammers to con new investors.</p>
+    <p>To protect yourself here are some tips:</p>
+
+    <ul>
+        <li>When something sounds too good to be true it probably is. Any investments that promise unusually high and guaranteed returns are most likely to be a scam as good investing takes time.</li>
+        <li>Always do extensive research and due diligence before investing.</li>
+        <li>Do not invest in anything outside of your circle of competence.</li>
+        <li>Only use reputable cryptocurrency exchanges.</li>
+        <li>Gain a deep understanding of the potential risks and rewards of your investments.</li>
+    </ul>
+
+    <h2>1. Social Media Cryptocurrency Scams</h2>
+    <p>Undoubtedly, social media has become a powerful and influential force in our society. </p>
+    <p>But like all tools, it can be used as a force for good or evil.</p>
+    <p>It comes as no surprise that hackers have been using social media to target <a href="https://blog.seedly.sg/crypto-staking-guide/"target="_blank"><u>holders of cryptocurrency</u></a> .</p>
+    <p>These hackers are using fake social media profiles and have hacked popular social media profiles to con people of their cryptocurrency.</p>
+    <p>On top of the cryptocurrency investment scams happening in Singapore, we are seeing cryptocurrency scams happening elsewhere as well.</p>
+    <p>A May 2021 report from the U.S. Federal Trade Commission (FTC) highlighted the growing problem of cryptocurrency investment scams.</p>
+    <p>A May 2021 <a href="https://www.ftc.gov/system/files/attachments/blog_posts/Cryptocurrency%20buzz%20drives%20record%20investment%20scam%20losses/cryptocurrency_spotlight.pdf"target="_blank"><u>report</u></a> from the U.S. Federal Trade Commission (FTC) highlighted the growing problem of cryptocurrency investment scams.</p>
+    <p>From October 2020 to March 2021, there were <b>7,000</b>  cryptocurrency investment scams reported. Collectively, the victims of these scams reported losses of about <b>US$80 million (S$105.6 million)!</b></p>
+    <img class = "col-12" src = "https://cdn-blog.seedly.sg/wp-content/uploads/2021/06/01134904/Screenshot-2021-06-01-at-1.47.05-PM.png" height="350px" width="550px">
+    
+    <h2>2. Cryptocurrency Ponzi Schemes</h2>
+    <p>Traditionally, a Ponzi scheme refers to an investment scam named after Charles Ponzi; an American who conned thousands of people to invest in a fake postage stamp scheme in the 1920s.</p>
+    <img class = "col-12" src = "https://cdn-blog.seedly.sg/wp-content/uploads/2021/06/01153530/Ponzi1920.jpeg" height="350px" width="300px">
+    <p>Investors are lured to invest in the scheme with promises of unusually high returns with little or no risk.</p>
+    <p>Instead of generating profers, the scammers look for new investors to invest in the scam and pay the older investors with the money that the new investors invested.</p>
+    <p>The investors who receive the payouts would often recommend their friends to invest in the scheme or put in more money themselves.</p>
+    <p>The scheme collapses on itself when it becomes more and more difficult to lure new investors, or when some investors want to withdraw their money or the scammer escapes with the money.</p>
+    <p>Typically, Ponzi scheme scammers leverage the latest innovation, technology, product or growth industry (i.e. cryptocurrency) to tempt investors to invest with the promise of unusually high returns.</p>
+    <p>Prospective investors tend to let their guard down when assessing this type of investment opportunity as they see something as disruptive or innovative.</p>
+    
+    <h2>3. Fake Coin Offerings</h2>
+    <p>According to CoinMarketCap, there are about 5,436 cryptocurrencies in existence and new blockchain project and their cryptocurrency tokens being minted every day.</p>
+    <p>You will have to be hyper-vigilant when evaluating these new coins as even the more legit coins have ridiculous names like Dogecoin and OMG.</p>
+    <p>This means that it will be difficult to spot fraudulent cryptocurrencies and their blockchain projects..</p>
+    <p>A high profile example of a fraudulent coin would be the 'My Big Coins' created by the company of the same name.</p>
+    <p>My Big Coin (MBC) was started back in 2013 by CEO John Roche. Like many blockchain businesses, the company set out to implement blockchain technology for the gaming and cannabis industries.</p>
+    <p>Subsequently, the company announced that they would back each individual MBC coin with gold.</p>
+    <img class="col-12" src="https://cdn-blog.seedly.sg/wp-content/uploads/2021/06/01164732/bkn7kiyqiwzxhzudfo0k.jpeg" height = 350px width="300px">
+    <p>Unfortunately, the house of cards collapsed when the U.S. Government <a href="https://coingeek.com/my-big-coin-founder-arrested-charged-with-fraud/" target="_blank"><u>arrested Randall Crater</u></a>  the founder of My Big Coin and MBC crypto in 2019.</p>
+    <p>The arrest revealed that MBC coin was a fraudulent cryptocurrency and the coin was not backed by gold.</p>
+    <p>Also, here are some common red flags to help you evaluate if a cryptocurrency is a fraud:</p>
+    <ul>
+        <li>Plagiarized investor documents and/or whitepapers.</li>
+        <li>Promises of unusually high and guaranteed returns.</li>
+        <li>Countdown clock to pressure you to get in on the deal.</li>
+        <li>Fake management teams.</li>
+    </ul>
+    <h2>4. Fake Cryptocurrency Exchanges</h2>
+    <p>Like stock exchanges, cryptocurrency exchanges are a vital part of the cryptocurrency ecosystem as they allow people to buy and sell cryptocurrencies.</p>
+    <p>However, many of the exchanges are typically not regulated and are prone to scams.</p>
+    <p>These scammers have levelled up and created fake cryptocurrency exchanges and even manipulate trading volumes on those big exchanges to entice potential investors and scam them of their funds.</p>
+    <p>Some telltale signs of a fake exchange include an unsecured website, harassment of users, freezing of cryptocurrency withdrawals or in some cases the founder may run away with your investments.</p>
+    <p>To ensure that you do not fall prey to such schemes, you should stick to the bigger and more reputable cryptocurrency exchanges.</p>
+    <h2>5. Pump And Dump Schemes</h2>
+    <p>Pump and dump schemes are not new as they have been perpetuated as long as the stock market has been in existence.</p>
+    <p>Although these schemes are not new, the lack of regulation in the cryptocurrency markets has made them more susceptible to this abusive market practice.</p>
+    <p>The mechanics of this scheme are simple.</p>
+    <p>An individual or group would buy up most of the circulating supply of a small cryptocurrency or coin with a small market capitalisation and low liquidity. This would drive up the price.</p>
+    <p>The next step would be to promote and pump up the coin with a publicity campaign.</p>
+    <p>Some methods of promotion include promoting the cryptocurrency apps like Discord, Slack or Telegram to pump the coin and drive up demand.</p>
+    <p>The schemers would also engage cryptocurrency influencers on social media platforms like TikTok or YouTube to hype up the coin.</p>
+    <p>Not to mention that the schemers would also create fake news stories like reports of fake celebrity endorsements.</p>
+    <p>This will often result in the coin going up in value temporarily as a result of this promotion.</p>
+    <p>Next, the people who are pumping the coin will 'dump' the coin and sell without warning.</p>
+    <img class = "col-12" src = "https://cdn-blog.seedly.sg/wp-content/uploads/2021/06/01125033/18-pump-and-dump-3.jpeg" height="350px" width="550px">
+    <p>Be very wary of such schemes as more often than not, you are being manipulated by the pumpers of the coin who will sell when the coin reaches their pre-determined price.</p>
+    <p>Here are some tips on how to avoid them:</p>
+    <ol>
+        <li>If you are looking to buy smaller cryptocurrencies that have a small market capitalisation and are not broadly traded, you need to be very proficient and do your own due diligence on the coin.</li>
+        <li>Take everything you read with a pinch of salt as every publication you read has an agenda.</li>
+        <li>You will also need to gain a deep understanding of what the blockchain project is about and what it does before even considering buying the coin.</li>
+    </ol>
+
+    <h3>Here is a video on how to spot cryptocurrency scams!</h3>
+
+    <iframe class="col-12" width="560" height="315" src="https://www.youtube.com/embed/_fZEtO8xCZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p><b>Copyright &copy; 2021, Seedly.sg</b></p>
+    
+</article>`],
+    /*
     "art12": ["Why proachiever matters", ``],
     "art13":[ "Asia vs Europe, what decisions are best made where?", ``],
     "art13":[ "China's investment ideals with Japan explained",``],
-    "art13":[ "How to save for that trip to Japan", ""]
+    "art13":[ "How to save for that trip to Japan", ""]*/
     }
+    
 
 
     $(".lessonsList").empty()
