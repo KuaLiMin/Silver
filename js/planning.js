@@ -531,7 +531,7 @@ function planningLessons(){
     
         <ol>
             <!--First Sub Section-->
-            <li>What constitutes my estate?</li>
+            <li><b>What constitutes my estate?</b></li>
             <p>First, it is helpful to consider the kinds of property you own or have an interest in and, in addition, what their value is (even if it is only an estimate). </p>
             <p>These could include:</p>
             <ul>
@@ -548,7 +548,7 @@ function planningLessons(){
             <p>Suppose you wish to transfer your share in the property to another person(s) other than the remaining joint tenant(s). In that case, you will have to convert your joint tenancy into a tenancy-in-common by a process called severance, after which you will be able to include your share of the property in your will.</p>
     
             <!--Second Sub Section-->
-            <li>Who will be my beneficiaries and what will they receive?</li>
+            <li><b>Who will be my beneficiaries and what will they receive?</b></li>
             <p>Now that you have considered your estate that you will distribute, you must now consider who will receive your estate. They are known as beneficiaries, who may be your spouse, parents, children or even charity organizations.</p>
             <p>There are different types of gifts that you may make in your will:</p>
             <!-- Table -->
@@ -581,12 +581,12 @@ function planningLessons(){
     
             </table>
             <!--Third Sub Section-->
-            <li>Who will take care of my children?</li>
+            <li><b>Who will take care of my children?</b></li>
             <p>If there is a possibility that your children are younger than 21 years old in the year of your death, you should consider appointing guardian(s) for them.</p>
             <p>The appointment will typically take effect when both parents of the child are deceased. The guardian you appoint should not only be willing but also be able to act as a guardian to your child.</p>
     
             <!--Fourth Sub Section-->
-            <li>What will happen to my body?</li>
+            <li><b>What will happen to my body?</b></li>
             <p>It is also possible to provide instructions for how your body is to be dealt with or for what purposes it is to be used, upon your death.</p>
             <ul>
                 <li>Educational or therapeutic use: you may provide that your body is to be available for educational purposes (anatomical examination for teaching and research) or therapeutic use (such as organ transplants/donate) under the Medical (Therapy, Education and Research) Act.</li>
@@ -595,12 +595,12 @@ function planningLessons(){
             <p>Note that as estate and probate proceedings typically commence only after the funeral, these wishes should be made known to your loved ones.</p>
             
             <!--Fifth Sub Section-->
-            <li>What will happen to the money in my CPF account?</li>
+            <li><b>What will happen to the money in my CPF account?</b></li>
             <p>Your will cannot provide instructions for distributing money in your CPF account. Rather, you must nominate a beneficiary for your CPF account with the CPF Board.</p>
             <p>If you fail to nominate a beneficiary, your CPF savings will be transferred to the Public Trustee’s Office, which will distribute the monies to your family members following the rules under the Intestate Succession Act or, if you are a Muslim, under the Inheritance Certificate. The recipients of the monies will be charged an administration fee by the Public Trustee’s Office.</p>
             
             <!--Sixth Sub Section-->
-            <li>Who will be the executors and trustees of my will?</li>
+            <li><b>Who will be the executors and trustees of my will?</b></li>
             <p>A practical consideration when drafting your will is who will be the personal representatives in-charge of carrying out the instructions stated in your will. This is crucial to think about as you will want your will to be carried out properly and according to your wishes.</p>
     
             <ul>
@@ -609,7 +609,7 @@ function planningLessons(){
             </ul>
             
             <!--Seventh Sub Section-->
-            <li>Have I prepared other will previously?</li>
+            <li><b>Have I prepared other will previously?</b></li>
             <p>It is important to recall any other wills that you may have prepared previously, so that you can prepare a revocation clause to nullify the other wills. This helps to minimize disputes as to the validity of the will you are presently drafting and ensure that your most up-to-date wishes are carried out</p>
             <p>To find out more, please click <a href="https://singaporelegaladvice.com/law-articles/checklist-drafting-comprehensive-will-singapore/" target="_blank"><u>here</u></a>. </p>
     
