@@ -63,88 +63,14 @@ function calculateSetValues(){
     cashflow = -cashflow
   }
 
+console.log(initialAmount)
+console.log(annualReturn)
+console.log(duration)
+console.log(cashflow)
+console.log(iterate )
 
 
 
-
-
-
-  //calculations (set variables below)
-  //bigTotal = initialAmount * 5 //for example
-
-  //testing
-  //formula  for compound interest for principal
-  // CI = P * (1+ (r/n))^(n*t)
-  // CI = initialAmount * (1 + (rate / 12))^(12*duration)
-  //Formula for Future value
-  // FV = PMT ((((1 + (r/n))^(n*t)-1)/(r/n)))
-  // FV = cashflow * (((1 + (rate / 12))^(12*duration)-1)/(rate / 12))
-  //P is initialAmount
-  //PMT is cashflow
-  //r is interest rate
-  //n is 12
-  //t is duration
-
-
-  // A = (p * Math.pow((1 + (r / (n * 100))), (n * t)));
-  // A is bigTotal
-  // p is inititalAmount
-  // r is interest rate
-  // n is 12
-  // t is duration
-
-bigTotal = (initialAmount*Math.pow(1+(annualReturn/(12 *100)))), (12*duration);
-
-/* Testing 2
-  var compound = 1
-function CInterest(){
-  for(let i=0; i<duration*12;i++){
-    if(i%(12/period) === 0){
-      compound*=(1+((iterate/100)/duration))
-    }
-  }
-  bigTotal=initialAmount*compound
-}
-*/
-
-/* Testing 3 from codepen
-function getChartData() {
-        var P = parseFloat(initial_deposit.dataset.value), // Principal
-            r = parseFloat(estimated_return.dataset.value / 100), // Annual Interest Rate
-            c = parseFloat(contribution_amount.dataset.value), // Contribution Amount
-            n = parseInt(document.querySelector('[name="compound_period"]:checked').value), // Compound Period
-            n2 = parseInt(document.querySelector('[name="contribution_period"]:checked').value), // Contribution Period
-            t = parseInt(investment_timespan.value), // Investment Time Span
-            currentYear = (new Date()).getFullYear()
-            ;
-
-        var labels = [];
-        for (var year = currentYear; year < currentYear + t; year++) {
-            labels.push(year);
-        }
-        for (var i = 1; i <= t; i++) {
-            var principal = P + ( c * n2 * i ),
-                interest = 0,
-                balance = principal;
-
-            if (r) {
-                var x = Math.pow(1 + r / n, n * i),
-                    compound_interest = P * x,
-                    contribution_interest = c * (x - 1) / (r / n2);
-                interest = (compound_interest + contribution_interest - principal).toFixed(0)
-                balance = (compound_interest + contribution_interest).toFixed(0);
-            }
-
-            future_balance.innerHTML = '$' + balance;
-            principal_dataset.data.push(principal);
-            interest_dataset.data.push(interest);
-        }
-        return {
-            labels: labels,
-            datasets: [principal_dataset, interest_dataset]
-        }
-    }
-*/
 
 
   //bigTotal = bigTotal
