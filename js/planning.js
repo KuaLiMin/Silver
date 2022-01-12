@@ -69,7 +69,7 @@ function planningLessons(){
                  </p>
              </div>	
     
-               <!- sixth Section->
+               <!- Sixth Section->
                  <h3>
         It will encourage meaningful conversations with your family
                  </h3>
@@ -377,8 +377,246 @@ function planningLessons(){
              </div>`],
         "les3": ["Video of 3 Funeral Planning Tips", `<iframe width="720" height="360" src="https://www.youtube.com/embed/g-X4diMr3Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`],
         "les4": ["Video of Pros and Cons of Prepaid Funeral Plans", `<iframe width="720" height="360" src="https://www.youtube.com/embed/sY7WMdlqflI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`],
-        /*
-        "les5": ["You're with me all the time", `<p>helloooo</p>`],
+        
+        "les5": ["Will Planning for unfortunate events", `<h1>Guide to Will Planning</h1>
+        <img class="col-12" src="https://singaporelegaladvice.com/wp-content/uploads/2016/08/will-750x340.jpg">
+        <!-- First Section-->
+        <h1>What happens if you die without a will?</h1>
+        <p>If the deceased did not leave a valid will behind before he/she passed away, Singapore’s rules on intestate succession, as outlined in section 7 of the Intestate Succession Act, will determine how the deceased’s estate is distributed to his/her survivors.</p>
+        <p>The rules are as follows:</p>
+        
+        <!-- Table -->
+        <table style="width:100%">
+            <tr>
+                <th>Survivor</th>
+                <th>Absent</th>
+                <th>Who gets what</th>
+    
+            </tr>
+            <tr>
+                <td>Spouse</td>
+                <td>Children, parents</td>
+                <td>Spouse gets everything</td>
+            </tr>
+            <tr>
+                <td>Spouse, children</td>
+                <td></td>
+                <td>Spouse gets half, children get the other half in equal portions</td>
+            </tr>
+            <tr>
+                <td>Children</td>
+                <td>Spouse</td>
+                <td>Children get everything in equal portions. Grandchildren can claim their parent’s share in equal portions if their parents is dead</td>
+            </tr>
+            <tr>
+                <td>Spouse, parents</td>
+                <td>Children</td>
+                <td>Spouse gets half, parents get half in equal portions</td>
+            </tr>
+            <tr>
+                <td>Parents </td>
+                <td>Spouse, children</td>
+                <td>Parents get everything in equal portions</td>
+            </tr>
+            <tr>
+                <td>Brothers and Sisters (or children of the deceased brother or sister)</td>
+                <td>Spouse, children, parents</td>
+                <td>Brothers and sisters get equal portions. Their children can claim their share for them in equal portions if they are deceased.</td>
+            </tr>
+            <tr>
+                <td>Grandparents</td>
+                <td>Spouse, children, parents, brothers and sisters or children of such brothers and sisters</td>
+                <td>Grandparents take the estate in equal portions</td>
+            </tr>
+            <tr>
+                <td>Uncles and aunts</td>
+                <td>Spouse, children, parents, brothers and sisters or children of such brothers and sisters, grandparents</td>
+                <td>Uncles and aunts take the estate in equal portions</td>
+            </tr>
+            <tr>
+                <td>None</td>
+                <td>Everyone</td>
+                <td>Government take everything</td>
+            </tr>
+        </table>
+    
+        <p><b>Note: These rules do not apply to Muslims.</b></p>
+        <p>The Intestate Succession Act does not apply to Muslims.</p>
+        <p>The distribution of poverty of a deceased Muslim domiciled in Singapore at the time of death is governed by Muslim law and the Syariah Court.</p>
+        
+        <!-- Second Section-->
+        <h1>What should you do if you want to write a Will in Singapore?</h1>
+        <p>It is possible for you to write your own will if you feel confident of doing so. Alternatively, you may also explore the following options:</p>
+        <h2>Make a will online</h2>
+        <p>Singapore Legal Advice offers an online WillMaker service where you can make a will from home by answering a series of questions on your assets and who should inherit these assets. You can also state who should be the guardian of your children under 21 years old when you pass away (if any).</p>
+        <p>The will document will be generated in Microsoft Word format. You can then print and sign it in the presence of 2 witnesses to make it legally valid.</p>
+        <p>WillMaker is ideal if you have a straightforward distribution of assets in mind and do not need other legal mechanisms such as setting up a trust. It costs $89 to make a will using WillMaker. Make a will via WillMaker <a href="https://willmaker.com.sg/" target="_blank"><u>here</u></a>.</p>
+        <h2>Hire a wills lawyer</h2>
+        <p>If you need a more customized will, consider hiring a lawyer to draft a will for you. The lawyer will tailor the will according to your precise requirements. </p>
+        <p>You can obtain quotes from lawyers who offer will-writing services through Singapore Legal Advice <b>Find a Lawyer</b> service. 
+            Use of this service is free. Fill in your query and send it to up to 5 lawyers of your choice to receive quotes. 
+            Will-writing services by lawyers generally start from $300. Get will-writing quotes via Find a Lawyer <a href="https://singaporelegaladvice.com/find-a-lawyer/services/wills-writing-lawyers/"target="_blank"><u>here</u></a>.</p>
+        <p>To find out more, please click <a href="https://singaporelegaladvice.com/law-articles/in-the-absence-of-a-will-how-is-the-deceased-estate-distributed/"target="_blank"><u>here</u></a>.</p>
+    
+        <!-- Third Section-->
+        <h1>Misconceptions about Will Writing</h1>
+        <p>A Will is a legal document that states your wishes and instructions when you are no longer around. In the Will, you will appoint an executor, someone you know or a lawyer, who will help handle the administration of your estates, such as paying off your debts as well as notifying banks and insurance companies.</p>
+        <p>If a person passes on, it is not desirable to be in a situation where the instructions are unclear and may lead to disputes within the family. Hence, it is recommended that a working adult or retiree draw up a Will when they are mentally capable.</p>
+        <p>Here are three common misconceptions about Will writing.</p>
+        <!--Ordered List-->
+        <ol>
+            <li>“I do not need a will as I am not rich.”</li>
+            <p>Singapore's public trustee service is available at a fee for those with an estate value of S$50,000 or below. In reality, most people would possess more than this amount. They will not be able to engage Singapore's public trustee service.</p>
+            <p>Most adults own assets and money, be it a property, prized jewelry, savings, a vehicle, insurance policies, an art collection or a business. It is not true that only the wealthy need a Will to bequeath these possessions and heirlooms to the designated recipients. Regardless of one's wealth level, if you have a Will, it means your family members do not need to worry about how to divide your assets in an equitable way. The executor can also donate a part of your estate to your chosen charity following your Will.</p>
+            <p>If you have debts, you will need to indicate how many debts are to be paid off from your saving before the rest of the possessions are distributed to your family members.</p>
+            
+            <li>“I do not need a Will as my assets will be distributed according to the law.”</li>
+            <p>Without a Will, your assets will be distributed according to Singapore’s laws of intestate succession. There is no chance for the assets to go to charities or non-family members.</p>
+            <p>According to these rules, if you are married without kids at the point of your departure, your spouse gets half of your assets while your parents split the remainder. If you are married with kids, your spouse inherits 50% of your assets, while your children inherit the rest in equal shares. If you pass on as a single, your parents will get an equal share. If your parents have passed on and you are single, your siblings will inherit your estate in equal shares. The rules are based on the number of surviving family members you have. Finally, if there are no surviving family members and you are unmarried, the government gets all your assets upon passing.</p>
+            
+            <li>“It is too expensive to write a Will.”</li>
+            <p>It is possible to write a Will on your own, but specific requirements for a Will to be legally valid. A lawyer can ensure the Will written is comprehensive and does not include assets that cannot be given away under Will, such as CPF monies.</p>
+            <p>Also, suppose you leave behind properties and assets overseas. In that case, a legally-trained executor will provide the required evidence to support the transfer of owners for these properties and assets. </p>
+            <p>Without a Will, the process for the court to appoint a personal representative to transfer your assets to family members will take longer and cost more because the family members need time to provide evidence and documents to prove their relationships with the deceased and obtain the Grant of Letter of Administration.</p>
+            <p>To find out more, please click <a href="https://www.maybank2u.com.sg/en/personal/accounts/savings/passion-plus/learning/will-writing.page"target="_blank"><u>here</u></a>.</p>
+        </ol>
+    
+        <!-- Fourth Section-->
+        <h1>Video of misconception about Will Writing</h1>
+        <iframe class = "col-12" width="560" height="315" src="https://www.youtube.com/embed/c5kCqY9tv1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+        <!-- Fifth Section-->
+        <h1>Pros and Cons of writing a Will</h1>
+        <p>Most people have feelings - often strong ones - about who should receive their assets after they are gone. But many put off making a will until it is too late. The good news is that making a will is much simpler and more affordable than most people think. But first, you should know the pros and cons.</p>
+        <p>No one wants to think about a time when they will no longer be around, but planning for the inevitable - that is, setting down your wishes in as last will - can not only give you peace of mind, it can also make things easier on your family and friends.</p>
+        <p>Having a last will in place at your death is a wise choice. Still, as with everything, there are advantages and disadvantages to consider when drafting one. Some of these pros and cons are discussed below.</p>
+    
+        <!-- Advantages -->
+        <h2>Advantages of a Last Will</h2>
+        <!--Unordered List-->
+        <ul>
+            <li>You can name a guardian for children and provide for them</li>
+            <p>A will allows you to choose a guardian for your children and set aside funds to make sure of their support and comfort.</p>
+            <li>You can create a testamentary trust in the will</li>
+            <p>You can create a testamentary trust within a last will, which is created upon your death and used to hold property for another person's benefit, such as your children.</p>
+            <li>You can choose your executor</li>
+            <p>The executor is in charge of making sure that all your bequests are carried out. A will gives you complete control over deciding who this will be. The executor should be someone who is willing and able to handle everything that is involved with the closing of your estate. Without a will, a court appoints someone to administer your estate, and that person may not be someone you would choose.</p>
+            <li>You can plan for personal matters</li>
+            <p>From burial arrangement to pet care, you can use a will to dictate what type of services, if any, you would like, and other personal matters.</p>
+            <li>You can amend it</li>
+            <p>Circumstances change, and so can your will. Through a “codicil”, you can amend any provisions of your will at any time so that they better reflect your most current wishes and assets.</p>
+            <li>You can revoke it</li>
+            <p>If you find that a will no longer represents your interests, you can revoke it entirely and start over.</p>
+            <li>Do not have to have expensive </li>
+            <p>Creating a last will can be surprisingly affordable, particularly if your finances, assets and beneficiaries are fairly straightforward.</p>
+        </ul>
+        
+        <!-- Disadvantages -->
+        <h2>Disadvantages of a Last Will</h2>
+        <!--Unordered List-->
+        <ul>
+            <li>You can name a guardian for children and provide for them</li>
+            <p>A will allows you to choose a guardian for your children and set aside funds to make sure of their support and comfort.</p>
+            <li>You can create a testamentary trust in the will</li>
+            <p>You can create a testamentary trust within a last will, which is created upon your death and used to hold property for another person's benefit, such as your children.</p>
+            <p>For more information, please click <a href="https://www.legalzoom.com/articles/creating-a-last-will-pros-and-cons"target="_blank"><u>here</u></a>.</p>
+        </ul>  
+        
+        <!--Sixth Section-->
+        <h1>Video of Will Writing in Singapore</h1>
+        <iframe class="col-12" width="560" height="315" src="https://www.youtube.com/embed/Df6bTc2gs_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+        <!-- Seventh Section -->
+        <h1>Checklist for Drafting a Comprehensive Will in Singapore</h1>
+    
+        <ol>
+            <!--First Sub Section-->
+            <li>What constitutes my estate?</li>
+            <p>First, it is helpful to consider the kinds of property you own or have an interest in and, in addition, what their value is (even if it is only an estimate). </p>
+            <p>These could include:</p>
+            <ul>
+                <li>Housing: An HDB flat, a private apartment or any other land or buildings</li>
+                <li>Charges and mortgages: you should also take note of which property has been charged to secure a loan and what type of charge or mortgage it is</li>
+                <li>Investments: shares, unit trusts and bank accounts</li>
+                <li>Liabilities: large debts, hire-purchase or credit agreements</li>
+                <li>Items: furniture, antiques and jewelry</li>
+                <li>Relevant arrangements: life insurance policies, your business or other arrangements on what will happen to your property upon your death.</li>
+            </ul>
+            <p>Note that the type of ownership or interest in the above property is relevant. For example, it is applicable if you are a co-owner of an HDB flat with your wife/husband. Legally speaking, there are different kinds of ownership, such as joint tenancy or tenancy in common.</p>
+            <p>In a joint tenancy, co-owners are “individually entitled to the whole property”, meaning that each co-owner owns 100% of the property. Conversely, owners of a residence in joint hold distinct shares in the property, although the land is not divided physically.</p>
+            <p>The distinction is relevant, as a joint tenant is generally not allowed to provide for his/her interest in the property in a will. Instead, the interest in the property automatically divests to the remaining joint tenant(s) due to the right of survivorship.</p>
+            <p>Suppose you wish to transfer your share in the property to another person(s) other than the remaining joint tenant(s). In that case, you will have to convert your joint tenancy into a tenancy-in-common by a process called severance, after which you will be able to include your share of the property in your will.</p>
+    
+            <!--Second Sub Section-->
+            <li>Who will be my beneficiaries and what will they receive?</li>
+            <p>Now that you have considered your estate that you will distribute, you must now consider who will receive your estate. They are known as beneficiaries, who may be your spouse, parents, children or even charity organizations.</p>
+            <p>There are different types of gifts that you may make in your will:</p>
+            <!-- Table -->
+            <table style="width:100%">
+                <tr>
+                    <th>Type of gift</th>
+                    <th>Description</th>
+    
+                </tr>
+                <tr>
+                    <td>Gifts of property</td>
+                    <td>Beneficiaries who receive these gifts will have to repay any existing debts or mortgages on the gift of property.</td>
+                </tr>
+                <tr>
+                    <td>Residuary gifts</td>
+                    <td>Beneficiaries who receive residuary gifts will receive the remaining property after the liabilities and taxes have been paid out from your estate.</td>
+                </tr>
+                <tr>
+                    <td>Substitutionary gifts</td>
+                    <td>In the event that a named beneficiary passes away before you, you may name another beneficiary to receive this substitutionary gift. For example, you may provide in your will that Friend A will receive your HDB flat in the event of your death. You may go on further to specify that if Friend A asses away before you do, Friend A’s wife will receive the HDB flat.</td>
+                </tr>
+                <tr>
+                    <td>Joint gifts</td>
+                    <td>You may distribute part of your estate to more than one beneficiary. For example, you may provide in your will that Friend A and his wife will both receive your HDB flat in equal shares.</td>
+                </tr>
+                <tr>
+                    <td>Trust gifts</td>
+                    <td>You may also set up a trust in your will. The trustee will then hold the property according to your intentions. This may be more applicable if  the circumstances of your family change drastically or you wish to safeguard your inheritance.</td>
+                </tr>
+    
+            </table>
+            <!--Third Sub Section-->
+            <li>Who will take care of my children?</li>
+            <p>If there is a possibility that your children are younger than 21 years old in the year of your death, you should consider appointing guardian(s) for them.</p>
+            <p>The appointment will typically take effect when both parents of the child are deceased. The guardian you appoint should not only be willing but also be able to act as a guardian to your child.</p>
+    
+            <!--Fourth Sub Section-->
+            <li>What will happen to my body?</li>
+            <p>It is also possible to provide instructions for how your body is to be dealt with or for what purposes it is to be used, upon your death.</p>
+            <ul>
+                <li>Educational or therapeutic use: you may provide that your body is to be available for educational purposes (anatomical examination for teaching and research) or therapeutic use (such as organ transplants/donate) under the Medical (Therapy, Education and Research) Act.</li>
+                <li>Burial plans and funeral arrangements: these may include your preference for burial or cremation, or where you wish your body or ashes to be buried.</li>
+            </ul>
+            <p>Note that as estate and probate proceedings typically commence only after the funeral, these wishes should be made known to your loved ones.</p>
+            
+            <!--Fifth Sub Section-->
+            <li>What will happen to the money in my CPF account?</li>
+            <p>Your will cannot provide instructions for distributing money in your CPF account. Rather, you must nominate a beneficiary for your CPF account with the CPF Board.</p>
+            <p>If you fail to nominate a beneficiary, your CPF savings will be transferred to the Public Trustee’s Office, which will distribute the monies to your family members following the rules under the Intestate Succession Act or, if you are a Muslim, under the Inheritance Certificate. The recipients of the monies will be charged an administration fee by the Public Trustee’s Office.</p>
+            
+            <!--Sixth Sub Section-->
+            <li>Who will be the executors and trustees of my will?</li>
+            <p>A practical consideration when drafting your will is who will be the personal representatives in-charge of carrying out the instructions stated in your will. This is crucial to think about as you will want your will to be carried out properly and according to your wishes.</p>
+    
+            <ul>
+                <li>Executor(s): the executor(s) is in-charge of dealing with your estate, meaning that he/she will administer and distribute the estate according to the instructions provided in the will. As you have the freedom to appoint an executor(s) in your will, you should consider who you want to appoint. This can include your spouse, friends, relatives or even lawyers and accountants, as long as you trust that they can conduct these duties properly as an executor.</li>
+                <li>Trustee: if you intend your will to create a trust, you should also appoint a trustee to handle the trust assets. A trustee is typically the same person as the executor but you can always choose otherwise.</li>
+            </ul>
+            
+            <!--Seventh Sub Section-->
+            <li>Have I prepared other will previously?</li>
+            <p>It is important to recall any other wills that you may have prepared previously, so that you can prepare a revocation clause to nullify the other wills. This helps to minimize disputes as to the validity of the will you are presently drafting and ensure that your most up-to-date wishes are carried out</p>
+            <p>To find out more, please click <a href="https://singaporelegaladvice.com/law-articles/checklist-drafting-comprehensive-will-singapore/" target="_blank"><u>here</u></a>. </p>
+    
+        </ol>
+    
+    </body>
+    </html>`], /*
         "les6": ["Oh it's in the back of my mind", `<p>helloooo</p>`],
         "les7": ["If you can summon the strength, tell me", `<p>helloooo</p>`],
         */
