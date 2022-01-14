@@ -63,35 +63,12 @@ function calculateSetValues(){
     cashflow = -cashflow
   }
 
+console.log(initialAmount)
+console.log(annualReturn)
+console.log(duration)
+console.log(cashflow)
+console.log(iterate )
 
-
-
-
-
-
-  //calculations (set variables below)
-  //bigTotal = initialAmount * 5 //for example
-
-  //testing
-  // A = (p * Math.pow((1 + (r / (n * 100))), (n * t)));
-  // A is bigTotal
-  // p is inititalAmount
-  // r is interest rate
-  // n is 12
-  // t is duration
-
-bigTotal = (initialAmount*Math.pow(1+(annualReturn/(12 *100)))), (12*duration);
-/*
-  var compound = 1
-function CInterest(){
-  for(let i=0; i<duration*12;i++){
-    if(i%(12/period) === 0){
-      compound*=(1+((iterate/100)/duration))
-    }
-  }
-  bigTotal=initialAmount*compound
-}
-*/
 
 
 
