@@ -1112,8 +1112,13 @@ To prevent fraud, each transaction is checked using one of two main validation t
     <p><b>Copyright &copy; 2021, Seedly.sg</b></p>
     
 </article>`],
+    "art12": ["Test your financial knowledge with a quiz", `<article class = "Financial quiz"`
+],
+    
+
+
     /*
-    "art12": ["Why proachiever matters", ``],
+    
     "art13":[ "Asia vs Europe, what decisions are best made where?", ``],
     "art13":[ "China's investment ideals with Japan explained",``],
     "art13":[ "How to save for that trip to Japan", ""]*/
