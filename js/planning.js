@@ -632,7 +632,6 @@ function planningLessons(){
 
 
 $('body').on('click', '.planLesson', function() {
-    console.log("abc")
     id = jQuery(this).attr("id")
  
     $(".modal-title").text(lessons[jQuery(this).attr("id")][0])

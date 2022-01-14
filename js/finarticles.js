@@ -216,12 +216,12 @@ function tutorialArticles(){
   Singapore exported $$515 billion worth of goods in 2017, with its primary export partners being the United States, Australia, Japan, China and the United Kingdom.
   It also imported S$452.1 billion worth of goods in 2017, with its primary import partners being the United States, Netherlands, China, Hong Kong and Japan.
   </p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/WSKLrGJyELE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="720" height="360" src="https://www.youtube.com/embed/WSKLrGJyELE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   `],
 "art3": ["Investing for Retirement / Retirement Planning", `<img class="col-12" src="https://i.ibb.co/KWMkCQ2/elderly-woman-laptop.jpg"/>
     
 <!-- Credit to the Authors-->
-<p>Writen By: <a href = "https://www.moneysense.gov.sg/" target = "_blank"><u>Moneysense.gov.sg</u></a></p>
+<p>Written By: <a href = "https://www.moneysense.gov.sg/" target = "_blank"><u>Moneysense.gov.sg</u></a></p>
   
   <p>Written On: 05 November 2018</p>
   
@@ -280,7 +280,7 @@ function tutorialArticles(){
       
       <p>See Also: <a href = "https://www.moneysense.gov.sg/starter-packs/get-started-with-investing?sc_lang=en" target = "_blank">
           <u>Get started with investing</u></a></p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/FKrm2Laetvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="720" height="360" src="https://www.youtube.com/embed/FKrm2Laetvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>`],
   "art4": ["How to Calculate the Percentage Gain or Loss on an Investment / Investing", `<p>Details: The Investopedia Team, Reviewed by, Somer Anderson
         </p><img class="col-12" src=""https://ibb.co/gZNZwbv"><img class="col-12" src="https://i.ibb.co/b5T5LjH/2021-11-17.png" alt="2021-11-17" border="0"/>
@@ -359,12 +359,12 @@ function tutorialArticles(){
     If the stock wasn't held for one year and, instead, was held for two quarters, we would add $100 to the gain amount (instead of $200) since the quarterly dividend payments would be $50 each.
     By incorporating the transaction costs, account fees, commissions, and dividend income, investors can obtain a more accurate representation of the percentage gain or loss on an investment.﻿
     </p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/XeYtgIOgm2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="720" height="360" src="https://www.youtube.com/embed/XeYtgIOgm2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     `],
     "art5": ["7 Personal Finance resolutions you’ll be able to keep — and how / Personal Finance", `<!-- Image for the Web Page-->
   <img class="col-12" src="https://i.ibb.co/kSNVqrD/fhc-banner.jpg"/>
   
-  <p>Wrriten By: <a href = "https://www.moneysense.gov.sg"><u>Moneysense.gov.sg</u></a></p>
+  <p>Written By: <a href = "https://www.moneysense.gov.sg"><u>Moneysense.gov.sg</u></a></p>
        
        <p>Written On: 16 Jan 2019</p>
        
@@ -566,7 +566,7 @@ function tutorialArticles(){
     <p>Image from: <a href = "https://www.holisticinvestment.in/investment-myths/">Holistic Investment Planners</a>
     </p>
     </div
-    <p>Wrriten By: <a href = "The investopedia Team"><u>https://www.investopedia.com/ask/answers/021615/what-safest-investment.asp</u></a></p>
+    <p>Written By: <a href = "The investopedia Team"><u>https://www.investopedia.com/ask/answers/021615/what-safest-investment.asp</u></a></p>
          
          <p>Written On: 22 Jan 2021</p>
          
@@ -612,12 +612,12 @@ function tutorialArticles(){
              </p>
              
          </div>
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/mLhjgysPnJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="720" height="360" src="https://www.youtube.com/embed/mLhjgysPnJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          `],
     "art7": ["What Is Cryptocurrency? / Cryptocurrency", `<!-- Image for the Web Page-->
     <img class="col-12" src="https://i.ibb.co/smYS4jY/What-is-cryptocurrency.jpg"/>
 
-    <p>Wrriten By: <a href = "https://www.forbes.com/advisor/investing/what-is-cryptocurrency/"><u>Kate Ashford, John Schmidt</u></a></p>
+    <p>Written By: <a href = "https://www.forbes.com/advisor/investing/what-is-cryptocurrency/"><u>Kate Ashford, John Schmidt</u></a></p>
          
          <p>Updated On: 03 Jan 2022</p>
          
@@ -684,10 +684,13 @@ To prevent fraud, each transaction is checked using one of two main validation t
 	More recently, the investing app Robinhood started offering the ability to buy several of the top cryptocurrencies, including Bitcoin, Ethereum and Dogecoin, without the fees of many of the major exchanges.
              </p>
          </div>	
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/OYvrbROVElQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`],
-    "art8": ["How To Buy Bitcoin and Other Cryptocurrencies in Singapore: A Beginner’s Guide / Cryptocurrency", `<!-- Image for the Web Page-->
+         <p>
+         Here's a video to explain further what is cryptocurrency:
+         <iframe width="720" height="360" src="https://www.youtube.com/embed/OYvrbROVElQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </p>`],
+         "art8": ["How To Buy Bitcoin and Other Cryptocurrencies in Singapore: A Beginner’s Guide / Cryptocurrency", `<!-- Image for the Web Page-->
     <img class="col-12" src="https://i.ibb.co/6ZBrgjh/how-to-buy-crypto.jpg"/>
-    <p>Wrriten By: <a href = "https://blog.seedly.sg/how-to-buy-bitcoins-singapore"><u>Joel Koh</u></a></p>
+    <p>Written By: <a href = "https://blog.seedly.sg/how-to-buy-bitcoins-singapore"><u>Joel Koh</u></a></p>
          
          <p>Written On: 25 Aug 2021</p>
          
@@ -800,7 +803,7 @@ To prevent fraud, each transaction is checked using one of two main validation t
             
             <p>Written By: <a href = "https://blog.seedly.sg/author/mingfeng" target="_blank"><u>Ming Feng</u></a></p>
             
-        <p>Wriiten On: 22 May 2021 </p>
+        <p>Written On: 22 May 2021 </p>
             
             <h2>What Is A Brokerage Account And How Does It Work?</h2>
             
@@ -826,7 +829,7 @@ To prevent fraud, each transaction is checked using one of two main validation t
             <p><b>Here is a video on how to set up your accounts with Clara and Joel from the Seedly Team!</b></p>
     
             <!-- Video -->
-            <iframe class = "col-12" width="560" height="315" src="https://www.youtube.com/embed/YHeuOsQHD1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class = "col-12" width="720" height="360" src="https://www.youtube.com/embed/YHeuOsQHD1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
             <!-- Heading 3 -->
             <h2>Open A Central Depository Account (CDP) Direct Securities Account</h2>
@@ -1020,7 +1023,7 @@ To prevent fraud, each transaction is checked using one of two main validation t
     
     <h3>Still not sure of how to invest in cryptocurrency? Watch this video:</h3>
 
-    <iframe class = "col-12" width="560" height="315" src="https://www.youtube.com/embed/hc1xFaQhvOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class = "col-12" width="720" height="360" src="https://www.youtube.com/embed/hc1xFaQhvOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <p>Copyright &copy; 2021, Endowus.com</p>
 </article>`],
@@ -1107,7 +1110,7 @@ To prevent fraud, each transaction is checked using one of two main validation t
 
     <h3>Here is a video on how to spot cryptocurrency scams!</h3>
 
-    <iframe class="col-12" width="560" height="315" src="https://www.youtube.com/embed/_fZEtO8xCZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="col-12" width="720" height="360" src="https://www.youtube.com/embed/_fZEtO8xCZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <p><b>Copyright &copy; 2021, Seedly.sg</b></p>
     
