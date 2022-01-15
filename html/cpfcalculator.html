@@ -47,6 +47,7 @@
   
             <h1 class=" text-center my-5 headText">CPF Calculator</h1>
             <p class="mb-4" style="font-size:smaller"></p>
+            <!--
             <div class="col-12">
 
                 <section class="inputs p-0 d-flex justify-content-around flex-wrap col-12">
@@ -141,6 +142,99 @@
                 </section>
                 
             </div>
+            -->
+            <div class="container grid">
+
+                <h1 class="h1">Retirement Calculator</h1>
+              
+                <div class="inputs-wrapper">
+                  <h2>Contribution Years</h2>
+              
+                  <form action="">
+                    <div class="form-group">
+                      <label for="starting-age">Current age</label>
+                      <div class="input-group">
+                        <input id="starting-age" type="number" class="form-control" value="25">
+                        <div class="input-group-append">
+                          <span class="input-group-text">years</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="starting-value">Current savings</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">$</span>
+                        </div>
+                        <input id="starting-value" type="number" class="form-control" value="20000">
+                      </div>
+                    </div>
+              
+                    <div class="form-group">
+                      <label for="yearly-contribution">Yearly contribution amount</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">$</span>
+                        </div>
+                        <input id="yearly-contribution" type="number" class="form-control" value="5500">
+                      </div>
+                    </div>
+              
+                    <div class="form-group">
+                      <label for="yearly-return">Annualized return</label>
+                      <div class="input-group">
+                        <input id="yearly-return" type="number" class="form-control" value="7">
+                        <div class="input-group-append">
+                          <span class="input-group-text">%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              
+                <div class="withdrawal-wrapper">
+                  <h2>Withdrawal Years</h2>
+                  
+                  <form action="">
+                    <div class="form-group">
+                      <label for="retirement-age">Retirement age</label>
+                      <div class="input-group">
+                        <input id="retirement-age" type="number" class="form-control" value="65">
+                        <div class="input-group-append">
+                          <span class="input-group-text">years</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="yearly-withdrawal">Yearly withdrawal amount</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">-$</span>
+                        </div>
+                        <input id="yearly-withdrawal" type="number" class="form-control" value="75000">
+                      </div>
+                    </div>
+              
+                    <div class="form-group">
+                      <label for="yearly-return-retirement">Annualized return</label>
+                      <div class="input-group">
+                        <input id="yearly-return-retirement" type="number" class="form-control" value="3">
+                        <div class="input-group-append">
+                          <span class="input-group-text">%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              
+                <div class="chart-wrapper">
+                  <h2>Total Account Value Over Time</h2>
+                  <div id="highcharts-container" class="chart-container"></div>
+                </div>
+                
+              </div>
         </section>
     </main>
 

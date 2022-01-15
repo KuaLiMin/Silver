@@ -1115,8 +1115,10 @@ To prevent fraud, each transaction is checked using one of two main validation t
     <p><b>Copyright &copy; 2021, Seedly.sg</b></p>
     
 </article>`],
-    "art12": ["Test your financial knowledge with a quiz", `<article class = "Financial quiz"`
-],
+    "art12": ["Test your financial knowledge with a quiz", `<article class = "Financial quiz"
+    <p>If link to quiz does not work, <a href="https://www.tryinteract.com/share/quiz/61e0dd884903d800183d81c8" target="_blank"><u>click here</u></a>
+    <iframe class="col-12" width="800" height="800" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://quiz.tryinteract.com/#/61e0dd884903d800183d81c8?method=iframe"></iframe>
+    `],
     
 
 

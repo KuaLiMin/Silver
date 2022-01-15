@@ -616,8 +616,14 @@ function planningLessons(){
         </ol>
     
     </body>
-    </html>`], /*
-        "les6": ["Oh it's in the back of my mind", `<p>helloooo</p>`],
+    </html>`], 
+    "les6": ["Test your personal planning knowledge with a quiz", `<p>Personal planning quiz</p>
+    <p>If link to quiz does not work, <a href="https://www.tryinteract.com/share/quiz/61e0ed9b4903d800183da144" target="_blank"><u>click here</u></a>
+    <iframe class="col-12" width="800" height="800" style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0" src="https://www.tryinteract.com/share/quiz/61e0ed9b4903d800183da144"></iframe>
+    `],
+    
+        /*
+        
         "les7": ["If you can summon the strength, tell me", `<p>helloooo</p>`],
         */
     }
