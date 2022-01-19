@@ -123,189 +123,182 @@ console.log(iterate )
 }
 }
 */
-let startingAgeEl = document.getElementById('starting-age');
-let startingValueEl = document.getElementById('starting-value');
-let contributionEl = document.getElementById('yearly-contribution');
-let yearlyReturnEl = document.getElementById('yearly-return');
+(function () {
+  var initial_deposit = document.querySelector('#initial_deposit'),
+      contribution_amount = document.querySelector('#contribution_amount'),
+      investment_timespan = document.querySelector('#investment_timespan'),
+      investment_timespan_text = document.querySelector('#investment_timespan_text'),
+      estimated_return = document.querySelector('#estimated_return'),
+      future_balance = document.querySelector('#future_balance');
 
-let retirementAgeEl = document.getElementById('retirement-age');
-let yearlyWithdrawalEl = document.getElementById('yearly-withdrawal');
-let yearlyReturnRetirementEl = document.getElementById('yearly-return-retirement');
+  function updateValue(element, action) {
+      var min = parseFloat(element.getAttribute('min')),
+          max = parseFloat(element.getAttribute('max')),
+          step = parseFloat(element.getAttribute('step')) || 1,
+          oldValue = element.dataset.value || element.defaultValue || 0,
+          newValue = parseFloat(element.value.replace(/\$/, ''));
 
-let inputs = {};
-let chartData = [];
-let myChart = {};
-let series = [];
-
-class Series {
-  constructor(inputs) {
-    this.startingAge = inputs.startingAge;
-    this.endingAge = inputs.endingAge;
-    this.startingValue = inputs.startingValue;
-    this.transactionAmount = inputs.transactionAmount;
-    this.rateOfReturn = inputs.rateOfReturn;
-    
-    this.totalValue = this.startingValue;
-    this.data = [];
-    
-    this.generateData();
-  }
-  
-  calculateYear(startingValue, rateOfReturn, transactionAmount, age) {
-    this.totalValue = startingValue * rateOfReturn + transactionAmount;
-    return {
-      x: age,
-      y: this.totalValue,
-      name: 'Age: ' + age
-    };
-  }
-  
-  generateData() {
-    this.data = [this.calculateYear(this.startingValue, 1, 0, this.startingAge)];
-    for (let age = this.startingAge+1; age <= this.endingAge; age++) {
-      let i = age - this.startingAge;
-      this.data.push(this.calculateYear(this.data[i-1].y, this.rateOfReturn, this.transactionAmount, age));
-      if (age >= 120 || this.data[i].y <= 0) {
-        this.endingAge = age;
-        break;
-      }
-    }
-    return this.data;
-  }
-}
-
-let getInputs = function() {
-  return {
-    startingValue: parseInt(startingValueEl.value) || 0,
-    transactionAmount: parseInt(contributionEl.value) || 0,
-    rateOfReturn: parseFloat(yearlyReturnEl.value) / 100 + 1 || 1,
-    startingAge: parseInt(startingAgeEl.value) || 0,
-    endingAge: parseInt(retirementAgeEl.value) || 0,
-    
-    yearlyWithdrawal: parseInt(yearlyWithdrawalEl.value) * -1 || 0,
-    retirementRateOfReturn: parseFloat(yearlyReturnRetirementEl.value) / 100 + 1 || 1
-  };
-}
-
-let generateRetirementData = function() {
-  inputs = getInputs();
-  
-  let savingSeries = new Series({
-    startingAge: inputs.startingAge,
-    endingAge: inputs.endingAge,
-    startingValue: inputs.startingValue,
-    transactionAmount: inputs.transactionAmount,
-    rateOfReturn: inputs.rateOfReturn,
-  });
-  let retirementSeries = new Series({
-    startingAge: inputs.endingAge,
-    endingAge: 120,
-    startingValue: savingSeries.totalValue,
-    transactionAmount: inputs.yearlyWithdrawal,
-    rateOfReturn: inputs.retirementRateOfReturn,
-  });
-  let principalSeries = new Series({
-    startingAge: inputs.startingAge,
-    endingAge: inputs.endingAge,
-    startingValue: inputs.startingValue,
-    transactionAmount: inputs.transactionAmount,
-    rateOfReturn: 1,
-  });
-  let principalSeries2 = new Series({
-    startingAge: inputs.endingAge,
-    endingAge: retirementSeries.endingAge,
-    startingValue: principalSeries.totalValue,
-    transactionAmount: 0,
-    rateOfReturn: 1,
-  });
-
-  series = [
-    {
-      name: 'Total Account Value',
-      data: savingSeries.data.concat(retirementSeries.data)
-    },
-    {
-      name: 'Principal Contributed',
-      data: principalSeries.data.concat(principalSeries2.data)
-    }
-  ];
-}
-
-let redraw = function() {
-  generateRetirementData();
-  for (let i = 0; i < series.length; i++) {
-    myChart.series[i].update({
-      data: series[i].data
-    });
-  }
-}
-
-let init = function() {
-  let createInputListener = function(element) {
-    element.addEventListener('input', function(event) {
-      redraw();
-    });
-  }
-
-  createInputListener(startingAgeEl);
-  createInputListener(startingValueEl);
-  createInputListener(contributionEl);
-  createInputListener(yearlyReturnEl);
-  
-  createInputListener(retirementAgeEl);
-  createInputListener(yearlyWithdrawalEl);
-  createInputListener(yearlyReturnRetirementEl);
-
-  generateRetirementData();
-  
-  Highcharts.setOptions({
-    lang: {
-      thousandsSep: ','
-    }
-  });
-  
-  myChart = Highcharts.chart('highcharts-container', {
-    chart: {
-      type: 'line'
-    },
-    title: {
-      text: 'Retirement Account Value'
-    },
-    xAxis: {
-      title: {
-        text: 'Years of Age'
-      }
-    },
-    yAxis: {
-      title: {
-        text: 'Account Value ($)'
-      }
-    },
-    tooltip: {
-      pointFormat: `<span style="color:{point.color}">\u25CF</span> {series.name}: \${point.y:,.2f}<br/>`,
-      shared: true
-    },
-    plotOptions: {
-      line: {
-        marker: {
-          enabled: false
-        }
-      }
-    },
-    responsive: {
-      rules: [{
-        condition: {
-          maxWidth: 500
-        },
-        chartOptions: {
-          legend: {
-            enabled: true
+      if (isNaN(parseFloat(newValue))) {
+          newValue = oldValue;
+      } else {
+          if (action == 'add') {
+              newValue += step;
+          } else if (action == 'sub') {
+              newValue -= step;
           }
-        }
-      }]
-    },
-    series: series
-  });
-}
 
-init();
+          newValue = newValue < min ? min : newValue > max ? max : newValue;
+      }
+
+      element.dataset.value = newValue;
+      element.value = (element.dataset.prepend || '') + newValue + (element.dataset.append || '');
+
+      updateChart();
+  }
+
+  function getChartData() {
+      var P = parseFloat(initial_deposit.dataset.value), // Principal
+          r = parseFloat(estimated_return.dataset.value / 100), // Annual Interest Rate
+          c = parseFloat(contribution_amount.dataset.value), // Contribution Amount
+          n = parseInt(document.querySelector('[name="compound_period"]:checked').value), // Compound Period
+          n2 = parseInt(document.querySelector('[name="contribution_period"]:checked').value), // Contribution Period
+          t = parseInt(investment_timespan.value), // Investment Time Span
+          currentYear = (new Date()).getFullYear()
+          ;
+
+      var labels = [];
+      for (var year = currentYear; year < currentYear + t; year++) {
+          labels.push(year);
+      }
+
+      var principal_dataset = {
+          label: 'Total Principal',
+          backgroundColor: 'rgb(0, 123, 255)',
+          data: []
+      };
+
+      var interest_dataset = {
+          label: "Total Interest",
+          backgroundColor: 'rgb(23, 162, 184)',
+          data: []
+      };
+
+      for (var i = 1; i <= t; i++) {
+          var principal = P + ( c * n2 * i ),
+              interest = 0,
+              balance = principal;
+
+          if (r) {
+              var x = Math.pow(1 + r / n, n * i),
+                  compound_interest = P * x,
+                  contribution_interest = c * (x - 1) / (r / n2);
+              interest = (compound_interest - contribution_interest - principal).toFixed(0)
+              balance = (compound_interest - contribution_interest).toFixed(0);
+          }
+
+          future_balance.innerHTML = '$' + balance;
+          principal_dataset.data.push(principal);
+          interest_dataset.data.push(interest);
+      }
+
+      return {
+          labels: labels,
+          datasets: [principal_dataset, interest_dataset]
+      }
+  }
+
+  function updateChart() {
+      var data = getChartData();
+
+      chart.data.labels = data.labels;
+      chart.data.datasets[0].data = data.datasets[0].data;
+      chart.data.datasets[1].data = data.datasets[1].data;
+      chart.update();
+  }
+
+  initial_deposit.addEventListener('change', function () {
+      updateValue(this);
+  });
+
+  contribution_amount.addEventListener('change', function () {
+      updateValue(this);
+  });
+
+  estimated_return.addEventListener('change', function () {
+      updateValue(this);
+  });
+
+  investment_timespan.addEventListener('change', function () {
+      investment_timespan_text.innerHTML = this.value + ' years';
+      updateChart();
+  });
+
+  investment_timespan.addEventListener('input', function () {
+      investment_timespan_text.innerHTML = this.value + ' years';
+  });
+
+  var radios = document.querySelectorAll('[name="contribution_period"], [name="compound_period"]');
+  for (var j = 0; j < radios.length; j++) {
+      radios[j].addEventListener('change', updateChart);
+  }
+
+  var buttons = document.querySelectorAll('[data-counter]');
+  for (var i = 0; i < buttons.length; i++) {
+      var button = buttons[i];
+
+      button.addEventListener('click', function () {
+          var field = document.querySelector('[name="' + this.dataset.field + '"]'),
+              action = this.dataset.counter;
+
+          if (field) {
+              updateValue(field, action);
+          }
+      });
+  }
+
+  var ctx = document.getElementById('myChart').getContext('2d'),
+      chart = new Chart(ctx, {
+          type: 'bar',
+          data: getChartData(),
+          options: {
+              legend: {
+                  display: false
+              },
+              tooltips: {
+                  mode: 'index',
+                  intersect: false,
+                  callbacks: {
+                      label: function (tooltipItem, data) {
+                          return data.datasets[tooltipItem.datasetIndex].label + ': $' + tooltipItem.yLabel;
+                      }
+                  }
+              },
+              responsive: true,
+              scales: {
+                  xAxes: [{
+                      stacked: true,
+                      scaleLabel: {
+                          display: true,
+                          labelString: 'Year'
+                      }
+                  }],
+                  yAxes: [{
+                      stacked: true,
+                      ticks: {
+                          callback: function (value) {
+                              return '$' + value;
+                          }
+                      },
+                      scaleLabel: {
+                          display: true,
+                          labelString: 'Balance'
+                      }
+                  }]
+              }
+          }
+      });
+
+})();
+
+
+/*init();*/
