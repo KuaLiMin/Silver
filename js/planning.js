@@ -2,7 +2,7 @@ $('a[href$="planning.html"]').attr('style', 'color: var(--clrStrongFocus) !impor
 planningLessons()
 function planningLessons(){
     lessons = {
-        "les1": ["6 reason to pre-plan your funeral.", `<!-- Image for the Web Page here-->
+        "les1": ["6 reason to pre-plan your funeral. / Funeral Planning", `<!-- Image for the Web Page here-->
         <img class="col-12" src=""/>
         <p>Source: <a href = "Source"><u>https://www.freewill.com/learn/6-reasons-to-pre-plan-your-funeral</u></a></p>         
              <!-- Introductory Section -->
@@ -80,7 +80,7 @@ function planningLessons(){
         If you are unsure how to bring it up, you can even use this article as an excuse. Try a line like, “I saw an article the other day on the benefits of planning your own funeral. It made me think about it a bit, and I came to a conclusion that… What would you all want?” You may end up learning things about your family that you would not have expected.
                  </p>
              </div>	         `],
-        "les2": ["Planning a funeral service in Singapore – What to do when a loved one dies & how much it costs.", `<!-- Image for the Web Page here-->
+        "les2": ["Planning a funeral service in Singapore – What to do when a loved one dies & how much it costs. / Funeral Planning", `<!-- Image for the Web Page here-->
         <img class="col-12" src=""/>
         <p>Source: <a href = "Source"><u>https://blog.moneysmart.sg/budgeting/funeral-services-singapore/#burial-or-cremation</u></a></p>         
              <!-- Introductory Section -->
@@ -375,10 +375,10 @@ function planningLessons(){
                  </p>
     
              </div>`],
-        "les3": ["Video of 3 Funeral Planning Tips", `<iframe width="720" height="360" src="https://www.youtube.com/embed/g-X4diMr3Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`],
-        "les4": ["Video of Pros and Cons of Prepaid Funeral Plans", `<iframe width="720" height="360" src="https://www.youtube.com/embed/sY7WMdlqflI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`],
+        "les3": ["Video of 3 Funeral Planning Tips / Funeral Planning", `<iframe width="720" height="360" src="https://www.youtube.com/embed/g-X4diMr3Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`],
+        "les4": ["Video of Pros and Cons of Prepaid Funeral Plans / Funeral Planning", `<iframe width="720" height="360" src="https://www.youtube.com/embed/sY7WMdlqflI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`],
         
-        "les5": ["Will Planning for unfortunate events", `<h1>Guide to Will Planning</h1>
+        "les5": ["Will Planning for unfortunate events / Will Planning", `<h1>Guide to Will Planning</h1>
         <img class="col-12" src="https://singaporelegaladvice.com/wp-content/uploads/2016/08/will-750x340.jpg">
         <!-- First Section-->
         <h1>What happens if you die without a will?</h1>
@@ -645,3 +645,5 @@ $('body').on('click', '.planLesson', function() {
     $(".modal-body").append(lessons[jQuery(this).attr("id")][1])
     $('#newsModal').modal('show')
  });
+
+ 
