@@ -1,7 +1,7 @@
 cryptsimLessons()
 function cryptsimLessons(){
     lessons = {
-        "les1": ["Holding & Selling", `<iframe src="https://connectnpedu-my.sharepoint.com/personal/s10182658_connect_np_edu_sg/_layouts/15/Doc.aspx?sourcedoc={21e0415f-9c8f-49f8-9cda-bd2c8ec714a0}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>`],
+        "les1": ["Crypto Simulator", `<iframe src="https://connectnpedu-my.sharepoint.com/personal/s10182658_connect_np_edu_sg/_layouts/15/Doc.aspx?sourcedoc={21e0415f-9c8f-49f8-9cda-bd2c8ec714a0}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>`],
         "les2": ["What Is Cryptocurrency?", `<!-- Image for the Web Page-->
         <img class="col-12" src="https://i.ibb.co/smYS4jY/What-is-cryptocurrency.jpg"/>
     
